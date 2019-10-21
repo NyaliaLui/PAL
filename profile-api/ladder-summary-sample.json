@@ -1,0 +1,218 @@
+{
+    "showCaseEntries": [
+      {
+        "ladderId": "282039",
+        "team": {
+          "localizedGameMode": "3v3",
+          "members": [
+            {
+              "favoriteRace": "protoss",
+              "name": "Noticals",
+              "playerId": "2948360",
+              "region": 1
+            },
+            {
+              "favoriteRace": "terran",
+              "name": "Wibbbly",
+              "playerId": "4651351",
+              "region": 1
+            },
+            {
+              "favoriteRace": "terran",
+              "name": "EZMECH",
+              "playerId": "10127720",
+              "region": 1
+            }
+          ]
+        },
+        "leagueName": "PLATINUM",
+        "localizedDivisionName": "Anselm Nu",
+        "rank": 26,
+        "wins": 3,
+        "losses": 2
+      },
+      {
+        "ladderId": "282376",
+        "team": {
+          "localizedGameMode": "1v1",
+          "members": [
+            {
+              "favoriteRace": "zerg",
+              "name": "Noticals",
+              "playerId": "2948360",
+              "region": 1
+            }
+          ]
+        },
+        "leagueName": "DIAMOND",
+        "localizedDivisionName": "Argo Indigo ",
+        "rank": 48,
+        "wins": 5,
+        "losses": 17
+      },
+      {
+        "ladderId": "281112",
+        "team": {
+          "localizedGameMode": "1v1",
+          "members": [
+            {
+              "favoriteRace": "protoss",
+              "name": "Noticals",
+              "playerId": "2948360",
+              "region": 1
+            }
+          ]
+        },
+        "leagueName": "MASTER",
+        "localizedDivisionName": "Augustgrad Alpha",
+        "rank": 27,
+        "wins": 22,
+        "losses": 34
+      }
+    ],
+    "placementMatches": [
+      {
+        "localizedGameMode": "2v2",
+        "members": [
+          {
+            "name": "Noticals",
+            "playerId": "2948360",
+            "region": 1
+          },
+          {
+            "name": "CupOfTea",
+            "playerId": "5510166",
+            "region": 1
+          }
+        ],
+        "gamesRemaining": 2
+      },
+      {
+        "localizedGameMode": "2v2",
+        "members": [
+          {
+            "name": "Noticals",
+            "playerId": "2948360",
+            "region": 1
+          },
+          {
+            "name": "VladIV",
+            "playerId": "6183885",
+            "region": 1
+          }
+        ],
+        "gamesRemaining": 3
+      },
+      {
+        "localizedGameMode": "2v2",
+        "members": [
+          {
+            "name": "Noticals",
+            "playerId": "2948360",
+            "region": 1
+          },
+          {
+            "name": "EZMECH",
+            "playerId": "10127720",
+            "region": 1
+          }
+        ],
+        "gamesRemaining": 4
+      },
+      {
+        "localizedGameMode": "2v2",
+        "members": [
+          {
+            "name": "NaturalLaws",
+            "playerId": "1114823",
+            "region": 1
+          },
+          {
+            "name": "Noticals",
+            "playerId": "2948360",
+            "region": 1
+          }
+        ],
+        "gamesRemaining": 4
+      },
+      {
+        "localizedGameMode": "3v3",
+        "members": [
+          {
+            "name": "NaturalLaws",
+            "playerId": "1114823",
+            "region": 1
+          },
+          {
+            "name": "Noticals",
+            "playerId": "2948360",
+            "region": 1
+          },
+          {
+            "name": "VladIV",
+            "playerId": "6183885",
+            "region": 1
+          }
+        ],
+        "gamesRemaining": 4
+      },
+      {
+        "localizedGameMode": "4v4",
+        "members": [
+          {
+            "name": "Noticals",
+            "playerId": "2948360",
+            "region": 1
+          },
+          {
+            "name": "Wibbbly",
+            "playerId": "4651351",
+            "region": 1
+          },
+          {
+            "name": "EZMECH",
+            "playerId": "10127720",
+            "region": 1
+          },
+          {
+            "name": "Nickonov",
+            "playerId": "10225893",
+            "region": 1
+          }
+        ],
+        "gamesRemaining": 4
+      }
+    ],
+    "allLadderMemberships": [
+      {
+        "ladderId": "282376",
+        "localizedGameMode": "1v1 Diamond",
+        "rank": 48
+      },
+      {
+        "ladderId": "281112",
+        "localizedGameMode": "1v1 Master",
+        "rank": 27
+      },
+      {
+        "ladderId": "281750",
+        "localizedGameMode": "1v1 Platinum",
+        "rank": 78
+      },
+      {
+        "ladderId": "281519",
+        "localizedGameMode": "2v2 Diamond",
+        "rank": 100
+      },
+      {
+        "ladderId": "282039",
+        "localizedGameMode": "3v3 Platinum",
+        "rank": 26
+      },
+      {
+        "ladderId": "281849",
+        "localizedGameMode": "3v3 Platinum",
+        "rank": 83
+      }
+    ]
+  }

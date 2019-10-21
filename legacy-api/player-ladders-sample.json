@@ -1,0 +1,839 @@
+{
+    "currentSeason": [
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "1114823",
+            "realm": 1,
+            "region": 1,
+            "displayName": "NaturalLaws",
+            "clanName": "",
+            "clanTag": "",
+            "profilePath": "/profile/1/1/1114823"
+          },
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "6183885",
+            "realm": 1,
+            "region": 1,
+            "displayName": "VladIV",
+            "clanName": "",
+            "clanTag": "",
+            "profilePath": "/profile/1/1/6183885"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_THREES",
+            "gamesPlayed": 1
+          }
+        ]
+      },
+      {
+        "ladder": [
+          {
+            "ladderName": "Anselm Nu",
+            "ladderId": "282039",
+            "division": 9,
+            "rank": 26,
+            "league": "PLATINUM",
+            "matchMakingQueue": "LOTV_THREES",
+            "wins": 3,
+            "losses": 2,
+            "showcase": true
+          }
+        ],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "4651351",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Wibbbly",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/4651351"
+          },
+          {
+            "id": "10127720",
+            "realm": 1,
+            "region": 1,
+            "displayName": "EZMECH",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/10127720"
+          }
+        ],
+        "nonRanked": []
+      },
+      {
+        "ladder": [
+          {
+            "ladderName": "Argo Indigo ",
+            "ladderId": "282376",
+            "division": 190,
+            "rank": 48,
+            "league": "DIAMOND",
+            "matchMakingQueue": "LOTV_SOLO",
+            "wins": 5,
+            "losses": 17,
+            "showcase": true
+          }
+        ],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          }
+        ],
+        "nonRanked": []
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "5510166",
+            "realm": 1,
+            "region": 1,
+            "displayName": "CupOfTea",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/5510166"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_TWOS",
+            "gamesPlayed": 3
+          }
+        ]
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "4651351",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Wibbbly",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/4651351"
+          },
+          {
+            "id": "10127720",
+            "realm": 1,
+            "region": 1,
+            "displayName": "EZMECH",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/10127720"
+          },
+          {
+            "id": "10225893",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Nickonov",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/10225893"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_FOURS",
+            "gamesPlayed": 1
+          }
+        ]
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "6183885",
+            "realm": 1,
+            "region": 1,
+            "displayName": "VladIV",
+            "clanName": "",
+            "clanTag": "",
+            "profilePath": "/profile/1/1/6183885"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_TWOS",
+            "gamesPlayed": 2
+          }
+        ]
+      },
+      {
+        "ladder": [
+          {
+            "ladderName": "Augustgrad Alpha",
+            "ladderId": "281112",
+            "division": 7,
+            "rank": 27,
+            "league": "MASTER",
+            "matchMakingQueue": "LOTV_SOLO",
+            "wins": 22,
+            "losses": 34,
+            "showcase": true
+          }
+        ],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          }
+        ],
+        "nonRanked": []
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "10127720",
+            "realm": 1,
+            "region": 1,
+            "displayName": "EZMECH",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/10127720"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_TWOS",
+            "gamesPlayed": 1
+          }
+        ]
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "4651351",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Wibbbly",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/4651351"
+          }
+        ],
+        "nonRanked": []
+      },
+      {
+        "ladder": [
+          {
+            "ladderName": "Drone Omega",
+            "ladderId": "281849",
+            "division": 7,
+            "rank": 83,
+            "league": "PLATINUM",
+            "matchMakingQueue": "LOTV_THREES",
+            "wins": 4,
+            "losses": 1,
+            "showcase": false
+          }
+        ],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "5510166",
+            "realm": 1,
+            "region": 1,
+            "displayName": "CupOfTea",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/5510166"
+          },
+          {
+            "id": "8635040",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Kappa",
+            "clanName": "",
+            "clanTag": "",
+            "profilePath": "/profile/1/1/8635040"
+          }
+        ],
+        "nonRanked": []
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          }
+        ],
+        "nonRanked": []
+      },
+      {
+        "ladder": [
+          {
+            "ladderName": "Mutalisk Hawk",
+            "ladderId": "281519",
+            "division": 10,
+            "rank": 100,
+            "league": "DIAMOND",
+            "matchMakingQueue": "LOTV_TWOS",
+            "wins": 4,
+            "losses": 2,
+            "showcase": false
+          }
+        ],
+        "characters": [
+          {
+            "id": "1064387",
+            "realm": 1,
+            "region": 1,
+            "displayName": "KRUM",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/1064387"
+          },
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          }
+        ],
+        "nonRanked": []
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "1114823",
+            "realm": 1,
+            "region": 1,
+            "displayName": "NaturalLaws",
+            "clanName": "",
+            "clanTag": "",
+            "profilePath": "/profile/1/1/1114823"
+          },
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_TWOS",
+            "gamesPlayed": 1
+          }
+        ]
+      },
+      {
+        "ladder": [
+          {
+            "ladderName": "Braken X-Ray",
+            "ladderId": "281750",
+            "division": 102,
+            "rank": 78,
+            "league": "PLATINUM",
+            "matchMakingQueue": "LOTV_SOLO",
+            "wins": 0,
+            "losses": 1,
+            "showcase": false
+          }
+        ],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          }
+        ],
+        "nonRanked": []
+      }
+    ],
+    "previousSeason": [
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "4651351",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Wibbbly",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/4651351"
+          },
+          {
+            "id": "10127720",
+            "realm": 1,
+            "region": 1,
+            "displayName": "EZMECH",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/10127720"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_THREES",
+            "gamesPlayed": 4
+          }
+        ]
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "419286",
+            "realm": 1,
+            "region": 1,
+            "displayName": "DigitalzEX",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/419286"
+          },
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_TWOS",
+            "gamesPlayed": 3
+          }
+        ]
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "419286",
+            "realm": 1,
+            "region": 1,
+            "displayName": "DigitalzEX",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/419286"
+          },
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "4651351",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Wibbbly",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/4651351"
+          },
+          {
+            "id": "10127720",
+            "realm": 1,
+            "region": 1,
+            "displayName": "EZMECH",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/10127720"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_FOURS",
+            "gamesPlayed": 2
+          }
+        ]
+      },
+      {
+        "ladder": [
+          {
+            "ladderName": "Colossus Tau",
+            "ladderId": "278563",
+            "division": 5,
+            "rank": 46,
+            "league": "MASTER",
+            "matchMakingQueue": "LOTV_SOLO",
+            "wins": 10,
+            "losses": 10,
+            "showcase": false
+          }
+        ],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          }
+        ],
+        "nonRanked": []
+      },
+      {
+        "ladder": [
+          {
+            "ladderName": "Praetor Romeo",
+            "ladderId": "280452",
+            "division": 240,
+            "rank": 83,
+            "league": "PLATINUM",
+            "matchMakingQueue": "LOTV_SOLO",
+            "wins": 2,
+            "losses": 9,
+            "showcase": false
+          }
+        ],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          }
+        ],
+        "nonRanked": []
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          }
+        ],
+        "nonRanked": []
+      }
+    ],
+    "showcasePlacement": [
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "1114823",
+            "realm": 1,
+            "region": 1,
+            "displayName": "NaturalLaws",
+            "clanName": "",
+            "clanTag": "",
+            "profilePath": "/profile/1/1/1114823"
+          },
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "6183885",
+            "realm": 1,
+            "region": 1,
+            "displayName": "VladIV",
+            "clanName": "",
+            "clanTag": "",
+            "profilePath": "/profile/1/1/6183885"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_THREES",
+            "gamesPlayed": 1
+          }
+        ]
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "5510166",
+            "realm": 1,
+            "region": 1,
+            "displayName": "CupOfTea",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/5510166"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_TWOS",
+            "gamesPlayed": 3
+          }
+        ]
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "4651351",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Wibbbly",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/4651351"
+          },
+          {
+            "id": "10127720",
+            "realm": 1,
+            "region": 1,
+            "displayName": "EZMECH",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/10127720"
+          },
+          {
+            "id": "10225893",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Nickonov",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/10225893"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_FOURS",
+            "gamesPlayed": 1
+          }
+        ]
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "6183885",
+            "realm": 1,
+            "region": 1,
+            "displayName": "VladIV",
+            "clanName": "",
+            "clanTag": "",
+            "profilePath": "/profile/1/1/6183885"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_TWOS",
+            "gamesPlayed": 2
+          }
+        ]
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          },
+          {
+            "id": "10127720",
+            "realm": 1,
+            "region": 1,
+            "displayName": "EZMECH",
+            "clanName": "DankTokes",
+            "clanTag": "DTokes",
+            "profilePath": "/profile/1/1/10127720"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_TWOS",
+            "gamesPlayed": 1
+          }
+        ]
+      },
+      {
+        "ladder": [],
+        "characters": [
+          {
+            "id": "1114823",
+            "realm": 1,
+            "region": 1,
+            "displayName": "NaturalLaws",
+            "clanName": "",
+            "clanTag": "",
+            "profilePath": "/profile/1/1/1114823"
+          },
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanName": "CrypticGaming",
+            "clanTag": "Cryptc",
+            "profilePath": "/profile/1/1/2948360"
+          }
+        ],
+        "nonRanked": [
+          {
+            "mmq": "LOTV_TWOS",
+            "gamesPlayed": 1
+          }
+        ]
+      }
+    ]
+  }

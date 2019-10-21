@@ -1,0 +1,1809 @@
+{
+    "ladderTeams": [
+      {
+        "teamMembers": [
+          {
+            "id": "6093024",
+            "realm": 1,
+            "region": 1,
+            "displayName": "llllllllllll",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 4,
+        "points": 1258,
+        "wins": 108,
+        "losses": 91,
+        "mmr": 4645,
+        "joinTimestamp": 1568366065
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1169213",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Elmiocid",
+            "clanTag": "NSKL",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 1,
+        "points": 1180,
+        "wins": 105,
+        "losses": 101,
+        "mmr": 4487,
+        "joinTimestamp": 1566368694
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "497443",
+            "realm": 1,
+            "region": 1,
+            "displayName": "renewal",
+            "clanTag": "Oob",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 1152,
+        "wins": 112,
+        "losses": 83,
+        "mmr": 4470,
+        "joinTimestamp": 1570837303
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1936828",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Family",
+            "clanTag": "LeHigh",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 7,
+        "points": 1071,
+        "wins": 99,
+        "losses": 102,
+        "mmr": 4415,
+        "joinTimestamp": 1566356754
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1510764",
+            "realm": 1,
+            "region": 1,
+            "displayName": "keyo",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 3,
+        "points": 1062,
+        "wins": 172,
+        "losses": 193,
+        "mmr": 4400,
+        "joinTimestamp": 1566372772
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1442313",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Shampagne",
+            "clanTag": "FxB",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 4,
+        "points": 1039,
+        "wins": 116,
+        "losses": 110,
+        "mmr": 4546,
+        "joinTimestamp": 1566361113
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "625391",
+            "realm": 2,
+            "region": 1,
+            "displayName": "Saggy",
+            "clanTag": "EGx",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 11,
+        "points": 1018,
+        "wins": 118,
+        "losses": 130,
+        "mmr": 4330,
+        "joinTimestamp": 1566361187
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "5054391",
+            "realm": 1,
+            "region": 1,
+            "displayName": "chivugt",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 0,
+        "points": 977,
+        "wins": 230,
+        "losses": 230,
+        "mmr": 4332,
+        "joinTimestamp": 1570897450
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "10877871",
+            "realm": 1,
+            "region": 1,
+            "displayName": "BicepBoii",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 8,
+        "points": 949,
+        "wins": 88,
+        "losses": 83,
+        "mmr": 4550,
+        "joinTimestamp": 1566361542
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2543557",
+            "realm": 1,
+            "region": 1,
+            "displayName": "fotbalexpert",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 11,
+        "points": 928,
+        "wins": 88,
+        "losses": 92,
+        "mmr": 4553,
+        "joinTimestamp": 1566363200
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2676372",
+            "realm": 1,
+            "region": 1,
+            "displayName": "TheArtOfWar",
+            "clanTag": "lNI",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 8,
+        "points": 901,
+        "wins": 138,
+        "losses": 145,
+        "mmr": 4387,
+        "joinTimestamp": 1566367979
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1074031",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Sojourn",
+            "clanTag": "UVUSC2",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 12,
+        "points": 804,
+        "wins": 51,
+        "losses": 60,
+        "mmr": 4522,
+        "joinTimestamp": 1566359154
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2499578",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Ozymandias",
+            "favoriteRace": "random"
+          }
+        ],
+        "previousRank": 0,
+        "points": 703,
+        "wins": 57,
+        "losses": 59,
+        "mmr": 4445,
+        "joinTimestamp": 1570240236
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2160803",
+            "realm": 1,
+            "region": 1,
+            "displayName": "RONE",
+            "clanTag": "425",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 15,
+        "points": 660,
+        "wins": 104,
+        "losses": 98,
+        "mmr": 4514,
+        "joinTimestamp": 1566356247
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "9835853",
+            "realm": 1,
+            "region": 1,
+            "displayName": "LastSupper",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 654,
+        "wins": 30,
+        "losses": 16,
+        "mmr": 4553,
+        "joinTimestamp": 1570192018
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "3216708",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Osiris",
+            "clanTag": "ACSS",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 17,
+        "points": 491,
+        "wins": 39,
+        "losses": 35,
+        "mmr": 4360,
+        "joinTimestamp": 1568381319
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "8460515",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Timo",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 15,
+        "points": 479,
+        "wins": 96,
+        "losses": 79,
+        "mmr": 4623,
+        "joinTimestamp": 1567450649
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "20003682",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Ice",
+            "clanTag": "ValidG",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 18,
+        "points": 448,
+        "wins": 37,
+        "losses": 39,
+        "mmr": 4550,
+        "joinTimestamp": 1566373824
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "3773461",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Freizya",
+            "clanTag": "KNDRO",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 16,
+        "points": 401,
+        "wins": 16,
+        "losses": 14,
+        "mmr": 4536,
+        "joinTimestamp": 1568439272
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "3863826",
+            "realm": 1,
+            "region": 1,
+            "displayName": "metamagic",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 28,
+        "points": 366,
+        "wins": 39,
+        "losses": 54,
+        "mmr": 4316,
+        "joinTimestamp": 1566380265
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "10082392",
+            "realm": 1,
+            "region": 1,
+            "displayName": "YOYI",
+            "clanTag": "AD3C",
+            "favoriteRace": "random"
+          }
+        ],
+        "previousRank": 79,
+        "points": 340,
+        "wins": 27,
+        "losses": 42,
+        "mmr": 4299,
+        "joinTimestamp": 1566380665
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "889173",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Archile",
+            "clanTag": "αB",
+            "favoriteRace": "random"
+          }
+        ],
+        "previousRank": 25,
+        "points": 284,
+        "wins": 29,
+        "losses": 24,
+        "mmr": 4537,
+        "joinTimestamp": 1566355132
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "6106702",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Saturated",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 22,
+        "points": 278,
+        "wins": 32,
+        "losses": 25,
+        "mmr": 4636,
+        "joinTimestamp": 1566508445
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "4390069",
+            "realm": 1,
+            "region": 1,
+            "displayName": "BooToYou",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 22,
+        "points": 276,
+        "wins": 65,
+        "losses": 56,
+        "mmr": 4589,
+        "joinTimestamp": 1566361418
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "5857864",
+            "realm": 1,
+            "region": 1,
+            "displayName": "GAGEX",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 22,
+        "points": 258,
+        "wins": 22,
+        "losses": 24,
+        "mmr": 4616,
+        "joinTimestamp": 1568008891
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1574228",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Degenerate",
+            "clanTag": "MeowyJ",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 249,
+        "wins": 14,
+        "losses": 6,
+        "mmr": 4499,
+        "joinTimestamp": 1567467338
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2948360",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Noticals",
+            "clanTag": "Cryptc",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 32,
+        "points": 230,
+        "wins": 22,
+        "losses": 34,
+        "mmr": 4295,
+        "joinTimestamp": 1566355237
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "10474884",
+            "realm": 1,
+            "region": 1,
+            "displayName": "PsYcHiCmOn",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 22,
+        "points": 229,
+        "wins": 36,
+        "losses": 40,
+        "mmr": 4491,
+        "joinTimestamp": 1566380547
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "20473178",
+            "realm": 1,
+            "region": 1,
+            "displayName": "EXTERMINADOR",
+            "clanTag": "ZNsc",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 30,
+        "points": 196,
+        "wins": 36,
+        "losses": 47,
+        "mmr": 4360,
+        "joinTimestamp": 1566377001
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "11023125",
+            "realm": 1,
+            "region": 1,
+            "displayName": "LOLITA",
+            "clanTag": "xRtG",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 10,
+        "points": 171,
+        "wins": 42,
+        "losses": 50,
+        "mmr": 4566,
+        "joinTimestamp": 1566363902
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1259777",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Ender",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 31,
+        "points": 152,
+        "wins": 20,
+        "losses": 19,
+        "mmr": 4527,
+        "joinTimestamp": 1566365254
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "623048",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Inept",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 37,
+        "points": 151,
+        "wins": 58,
+        "losses": 53,
+        "mmr": 4558,
+        "joinTimestamp": 1566354782
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1141587",
+            "realm": 1,
+            "region": 1,
+            "displayName": "kOrc",
+            "clanTag": "Granpa",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 29,
+        "points": 147,
+        "wins": 22,
+        "losses": 24,
+        "mmr": 4437,
+        "joinTimestamp": 1566506374
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "568976",
+            "realm": 2,
+            "region": 1,
+            "displayName": "Ruru",
+            "clanTag": "NwAs",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 41,
+        "points": 120,
+        "wins": 14,
+        "losses": 19,
+        "mmr": 4466,
+        "joinTimestamp": 1566382220
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "7572952",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Zeno",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 107,
+        "wins": 5,
+        "losses": 2,
+        "mmr": 4487,
+        "joinTimestamp": 1566437597
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "7057706",
+            "realm": 1,
+            "region": 1,
+            "displayName": "ChinaAshHoe",
+            "clanTag": "gtSUX",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 34,
+        "points": 106,
+        "wins": 7,
+        "losses": 2,
+        "mmr": 4550,
+        "joinTimestamp": 1566359316
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "20613034",
+            "realm": 1,
+            "region": 1,
+            "displayName": "SNOWWHITE",
+            "clanTag": "AthSun",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 38,
+        "points": 104,
+        "wins": 16,
+        "losses": 14,
+        "mmr": 4606,
+        "joinTimestamp": 1566377684
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "7818782",
+            "realm": 1,
+            "region": 1,
+            "displayName": "brlch",
+            "clanTag": "LimaSC",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 33,
+        "points": 99,
+        "wins": 3,
+        "losses": 1,
+        "mmr": 4525,
+        "joinTimestamp": 1566365813
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "4189778",
+            "realm": 1,
+            "region": 1,
+            "displayName": "EmPirE",
+            "clanTag": "SMB",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 94,
+        "wins": 1,
+        "losses": 1,
+        "mmr": 4495,
+        "joinTimestamp": 1566360172
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2745017",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Bockelypse",
+            "clanTag": "ValidG",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 93,
+        "wins": 7,
+        "losses": 5,
+        "mmr": 4485,
+        "joinTimestamp": 1566356531
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "4828592",
+            "realm": 1,
+            "region": 1,
+            "displayName": "BTS",
+            "clanTag": "SSAMZI",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 93,
+        "wins": 1,
+        "losses": 1,
+        "mmr": 4486,
+        "joinTimestamp": 1566355021
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "4567688",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Joon",
+            "clanTag": "HPK",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 0,
+        "points": 84,
+        "wins": 3,
+        "losses": 3,
+        "mmr": 4880,
+        "joinTimestamp": 1566362924
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1148613",
+            "realm": 1,
+            "region": 1,
+            "displayName": "swerve",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 83,
+        "wins": 5,
+        "losses": 6,
+        "mmr": 4452,
+        "joinTimestamp": 1566361084
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "5985522",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Anxiety",
+            "clanTag": "lNI",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 100,
+        "points": 80,
+        "wins": 11,
+        "losses": 9,
+        "mmr": 4571,
+        "joinTimestamp": 1566786460
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "808789",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Slumdog",
+            "clanTag": "RTN",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 68,
+        "points": 70,
+        "wins": 7,
+        "losses": 7,
+        "mmr": 4594,
+        "joinTimestamp": 1566358622
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "4812419",
+            "realm": 1,
+            "region": 1,
+            "displayName": "IIIIIIIIIIII",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 53,
+        "points": 58,
+        "wins": 14,
+        "losses": 23,
+        "mmr": 4428,
+        "joinTimestamp": 1566359415
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1175658",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Infestivus",
+            "clanTag": "FacTat",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 44,
+        "points": 56,
+        "wins": 5,
+        "losses": 1,
+        "mmr": 4627,
+        "joinTimestamp": 1566355069
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "968044",
+            "realm": 2,
+            "region": 1,
+            "displayName": "Sabonete",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 44,
+        "wins": 6,
+        "losses": 0,
+        "mmr": 4625,
+        "joinTimestamp": 1568403338
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1116149",
+            "realm": 1,
+            "region": 1,
+            "displayName": "MaFia",
+            "clanTag": "xRtG",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 44,
+        "wins": 6,
+        "losses": 2,
+        "mmr": 4650,
+        "joinTimestamp": 1570239970
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2707539",
+            "realm": 1,
+            "region": 1,
+            "displayName": "JerrodCole",
+            "clanTag": "TSSwag",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 82,
+        "points": 44,
+        "wins": 3,
+        "losses": 2,
+        "mmr": 4658,
+        "joinTimestamp": 1567407617
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "4934955",
+            "realm": 1,
+            "region": 1,
+            "displayName": "karaDebiti",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 42,
+        "wins": 6,
+        "losses": 10,
+        "mmr": 4511,
+        "joinTimestamp": 1566382677
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1711920",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Debaser",
+            "clanTag": "ripBW",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 71,
+        "points": 40,
+        "wins": 3,
+        "losses": 3,
+        "mmr": 4663,
+        "joinTimestamp": 1566359794
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "5242094",
+            "realm": 1,
+            "region": 1,
+            "displayName": "llllllllllll",
+            "favoriteRace": "random"
+          }
+        ],
+        "previousRank": 53,
+        "points": 40,
+        "wins": 21,
+        "losses": 26,
+        "mmr": 4605,
+        "joinTimestamp": 1566362800
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "11018515",
+            "realm": 1,
+            "region": 1,
+            "displayName": "ttt",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 38,
+        "wins": 7,
+        "losses": 2,
+        "mmr": 4634,
+        "joinTimestamp": 1566358451
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2927320",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Tramp",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 70,
+        "points": 34,
+        "wins": 2,
+        "losses": 1,
+        "mmr": 4531,
+        "joinTimestamp": 1566359679
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "346453",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Bash",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 56,
+        "points": 30,
+        "wins": 5,
+        "losses": 7,
+        "mmr": 4520,
+        "joinTimestamp": 1566363282
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "10909321",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Tsubaki",
+            "clanTag": "FANXY",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 0,
+        "points": 28,
+        "wins": 4,
+        "losses": 1,
+        "mmr": 4609,
+        "joinTimestamp": 1566358433
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "889173",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Archile",
+            "clanTag": "αB",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 60,
+        "points": 24,
+        "wins": 5,
+        "losses": 7,
+        "mmr": 4463,
+        "joinTimestamp": 1566358823
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1457262",
+            "realm": 2,
+            "region": 1,
+            "displayName": "BronceForeve",
+            "clanTag": "TheiZ",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 44,
+        "points": 22,
+        "wins": 5,
+        "losses": 4,
+        "mmr": 4536,
+        "joinTimestamp": 1566372173
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2800476",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Darkson",
+            "clanTag": "Ris3n",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 92,
+        "points": 20,
+        "wins": 3,
+        "losses": 5,
+        "mmr": 4569,
+        "joinTimestamp": 1566375564
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "10910479",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Kaji",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 0,
+        "points": 20,
+        "wins": 6,
+        "losses": 3,
+        "mmr": 4623,
+        "joinTimestamp": 1570824401
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "20061436",
+            "realm": 1,
+            "region": 1,
+            "displayName": "IlIIIllIlIIl",
+            "favoriteRace": "random"
+          }
+        ],
+        "previousRank": 0,
+        "points": 16,
+        "wins": 5,
+        "losses": 8,
+        "mmr": 4420,
+        "joinTimestamp": 1569200736
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2399356",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Lemonparty",
+            "clanTag": "MC2015",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 56,
+        "points": 14,
+        "wins": 2,
+        "losses": 7,
+        "mmr": 4413,
+        "joinTimestamp": 1566357426
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "20096611",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Cheoklate",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 91,
+        "points": 12,
+        "wins": 3,
+        "losses": 3,
+        "mmr": 4579,
+        "joinTimestamp": 1566378166
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1631814",
+            "realm": 1,
+            "region": 1,
+            "displayName": "BigBrother",
+            "clanTag": "FxB",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 11,
+        "wins": 6,
+        "losses": 4,
+        "mmr": 4675,
+        "joinTimestamp": 1566355873
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "10184279",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Ailee",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 45,
+        "points": 10,
+        "wins": 2,
+        "losses": 4,
+        "mmr": 4524,
+        "joinTimestamp": 1566365553
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1585559",
+            "realm": 2,
+            "region": 1,
+            "displayName": "tonysoprano",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 0,
+        "points": 4,
+        "wins": 2,
+        "losses": 1,
+        "mmr": 4620,
+        "joinTimestamp": 1567406719
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "680236",
+            "realm": 2,
+            "region": 1,
+            "displayName": "IÐrA",
+            "clanTag": "αXLa",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 4,
+        "wins": 1,
+        "losses": 3,
+        "mmr": 4568,
+        "joinTimestamp": 1566366443
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "725110",
+            "realm": 2,
+            "region": 1,
+            "displayName": "eGGz",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 98,
+        "points": 4,
+        "wins": 1,
+        "losses": 6,
+        "mmr": 4631,
+        "joinTimestamp": 1569269155
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "3047247",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Kitagawa",
+            "clanTag": "PELO",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "mmr": 4659,
+        "joinTimestamp": 1566359677
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "20745794",
+            "realm": 1,
+            "region": 1,
+            "displayName": "MechDamon",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4507,
+        "joinTimestamp": 1566375995
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "513259",
+            "realm": 1,
+            "region": 1,
+            "displayName": "EECSFOREVER",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4697,
+        "joinTimestamp": 1566360580
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1808121",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Wittgenstein",
+            "clanTag": "PHILO",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 70,
+        "points": 0,
+        "wins": 1,
+        "losses": 1,
+        "mmr": 4500,
+        "joinTimestamp": 1566358379
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "3391721",
+            "realm": 1,
+            "region": 1,
+            "displayName": "daboss",
+            "clanTag": "VetZCo",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 3,
+        "mmr": 4569,
+        "joinTimestamp": 1566506867
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "10534929",
+            "realm": 1,
+            "region": 1,
+            "displayName": "EasyOpponent",
+            "clanTag": "TGosuC",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4639,
+        "joinTimestamp": 1566369978
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "3948819",
+            "realm": 1,
+            "region": 1,
+            "displayName": "xJigglypuff",
+            "clanTag": "GØSU",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4599,
+        "joinTimestamp": 1566364666
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "10153079",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Darkness",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4545,
+        "joinTimestamp": 1566974184
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "5973247",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Relinquish",
+            "clanTag": "RUMB",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "mmr": 4587,
+        "joinTimestamp": 1566362064
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "8628521",
+            "realm": 1,
+            "region": 1,
+            "displayName": "OniiChan",
+            "clanTag": "7IP",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4483,
+        "joinTimestamp": 1566380674
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1453755",
+            "realm": 1,
+            "region": 1,
+            "displayName": "JayTeee",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4582,
+        "joinTimestamp": 1566369887
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "3444020",
+            "realm": 1,
+            "region": 1,
+            "displayName": "HackaXorean",
+            "clanTag": "xRtG",
+            "favoriteRace": "random"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "mmr": 4666,
+        "joinTimestamp": 1566783840
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1064387",
+            "realm": 1,
+            "region": 1,
+            "displayName": "KRUM",
+            "clanTag": "Cryptc",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "mmr": 4525,
+        "joinTimestamp": 1566365577
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2495668",
+            "realm": 1,
+            "region": 1,
+            "displayName": "MajesticGOAT",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 83,
+        "points": 0,
+        "wins": 0,
+        "losses": 3,
+        "mmr": 4677,
+        "joinTimestamp": 1566363599
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "3355156",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Lusira",
+            "clanTag": "RLR",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4498,
+        "joinTimestamp": 1566370347
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "358372",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Guildelin",
+            "clanTag": "TGosuC",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "mmr": 4513,
+        "joinTimestamp": 1566364220
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "5976343",
+            "realm": 1,
+            "region": 1,
+            "displayName": "QwHX",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "mmr": 4565,
+        "joinTimestamp": 1566362303
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "973810",
+            "realm": 1,
+            "region": 1,
+            "displayName": "MalcolmXWing",
+            "clanTag": "GRU",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "mmr": 4568,
+        "joinTimestamp": 1566354999
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2552252",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Ryoku",
+            "clanTag": "GTnLB",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "mmr": 4535,
+        "joinTimestamp": 1566365648
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2874935",
+            "realm": 1,
+            "region": 1,
+            "displayName": "ropicophop",
+            "clanTag": "CMU",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 1,
+        "losses": 6,
+        "mmr": 4406,
+        "joinTimestamp": 1566360513
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2263838",
+            "realm": 1,
+            "region": 1,
+            "displayName": "ReVolt",
+            "clanTag": "Ris3n",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4570,
+        "joinTimestamp": 1566355080
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "6249584",
+            "realm": 1,
+            "region": 1,
+            "displayName": "chichibaba",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 9,
+        "losses": 14,
+        "mmr": 4441,
+        "joinTimestamp": 1566364628
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "2857297",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Kestrel",
+            "clanTag": "UW",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4712,
+        "joinTimestamp": 1566378542
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1868374",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Lactoid",
+            "favoriteRace": "random"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4492,
+        "joinTimestamp": 1566965393
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1469950",
+            "realm": 1,
+            "region": 1,
+            "displayName": "ricemonkey",
+            "clanTag": "Rise",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "mmr": 4646,
+        "joinTimestamp": 1566358736
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1218147",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Ajax",
+            "clanTag": "cloudM",
+            "favoriteRace": "zerg"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "mmr": 4560,
+        "joinTimestamp": 1566368550
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "10350528",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Morpheus",
+            "clanTag": "REPORT",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4497,
+        "joinTimestamp": 1566372266
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "10899916",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Jackfish",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4535,
+        "joinTimestamp": 1567754033
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "1290207",
+            "realm": 2,
+            "region": 1,
+            "displayName": "Cronos",
+            "clanTag": "Intpro",
+            "favoriteRace": "protoss"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "mmr": 4544,
+        "joinTimestamp": 1567973276
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "348251",
+            "realm": 1,
+            "region": 1,
+            "displayName": "Chaggi",
+            "clanTag": "LUE",
+            "favoriteRace": "terran"
+          }
+        ],
+        "previousRank": 99,
+        "points": 0,
+        "wins": 1,
+        "losses": 1,
+        "mmr": 4611,
+        "joinTimestamp": 1567986602
+      },
+      {
+        "teamMembers": [
+          {
+            "id": "10776076",
+            "realm": 1,
+            "region": 1,
+            "displayName": "llllllllll",
+            "favoriteRace": "random"
+          }
+        ],
+        "previousRank": 0,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "mmr": 4485,
+        "joinTimestamp": 1569716756
+      }
+    ],
+    "allLadderMemberships": [
+      {
+        "ladderId": "282376",
+        "localizedGameMode": "1v1 Diamond",
+        "rank": 48
+      },
+      {
+        "ladderId": "281112",
+        "localizedGameMode": "1v1 Master",
+        "rank": 27
+      },
+      {
+        "ladderId": "281750",
+        "localizedGameMode": "1v1 Platinum",
+        "rank": 78
+      },
+      {
+        "ladderId": "281519",
+        "localizedGameMode": "2v2 Diamond",
+        "rank": 100
+      },
+      {
+        "ladderId": "282039",
+        "localizedGameMode": "3v3 Platinum",
+        "rank": 26
+      },
+      {
+        "ladderId": "281849",
+        "localizedGameMode": "3v3 Platinum",
+        "rank": 83
+      }
+    ],
+    "localizedDivision": "Division Augustgrad Alpha",
+    "league": "master",
+    "currentLadderMembership": {
+      "ladderId": "281112",
+      "localizedGameMode": "1v1 Master"
+    },
+    "ranksAndPools": [
+      {
+        "rank": 27,
+        "mmr": 4295,
+        "bonusPool": 974
+      }
+    ]
+  }

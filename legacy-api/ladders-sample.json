@@ -1,0 +1,1804 @@
+{
+    "ladderMembers": [
+      {
+        "character": {
+          "id": "6093024",
+          "realm": 1,
+          "region": 1,
+          "displayName": "llllllllllll",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/6093024"
+        },
+        "joinTimestamp": 1568366065,
+        "points": 1258,
+        "wins": 108,
+        "losses": 91,
+        "highestRank": 100,
+        "previousRank": 4,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "1169213",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Elmiocid",
+          "clanName": "NoSkill",
+          "clanTag": "NSKL",
+          "profilePath": "/profile/1/1/1169213"
+        },
+        "joinTimestamp": 1566368694,
+        "points": 1180,
+        "wins": 105,
+        "losses": 101,
+        "highestRank": 13,
+        "previousRank": 1,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "497443",
+          "realm": 1,
+          "region": 1,
+          "displayName": "renewal",
+          "clanName": "QQ",
+          "clanTag": "Oob",
+          "profilePath": "/profile/1/1/497443"
+        },
+        "joinTimestamp": 1570837303,
+        "points": 1152,
+        "wins": 112,
+        "losses": 83,
+        "highestRank": 100,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "1936828",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Family",
+          "clanName": "LehighSC",
+          "clanTag": "LeHigh",
+          "profilePath": "/profile/1/1/1936828"
+        },
+        "joinTimestamp": 1566356754,
+        "points": 1071,
+        "wins": 99,
+        "losses": 102,
+        "highestRank": 6,
+        "previousRank": 7,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "1510764",
+          "realm": 1,
+          "region": 1,
+          "displayName": "keyo",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/1510764"
+        },
+        "joinTimestamp": 1566372772,
+        "points": 1062,
+        "wins": 172,
+        "losses": 195,
+        "highestRank": 31,
+        "previousRank": 3,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "1442313",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Shampagne",
+          "clanName": "Formless Bearsloths",
+          "clanTag": "FxB",
+          "profilePath": "/profile/1/1/1442313"
+        },
+        "joinTimestamp": 1566361113,
+        "points": 1039,
+        "wins": 116,
+        "losses": 110,
+        "highestRank": 46,
+        "previousRank": 4,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "625391",
+          "realm": 2,
+          "region": 1,
+          "displayName": "Saggy",
+          "clanName": "Evolution Gaming Xtreme",
+          "clanTag": "EGx",
+          "profilePath": "/profile/1/2/625391"
+        },
+        "joinTimestamp": 1566361187,
+        "points": 1018,
+        "wins": 118,
+        "losses": 131,
+        "highestRank": 34,
+        "previousRank": 11,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "5054391",
+          "realm": 1,
+          "region": 1,
+          "displayName": "chivugt",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/5054391"
+        },
+        "joinTimestamp": 1570897450,
+        "points": 977,
+        "wins": 230,
+        "losses": 230,
+        "highestRank": 100,
+        "previousRank": 0,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "10877871",
+          "realm": 1,
+          "region": 1,
+          "displayName": "BicepBoii",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/10877871"
+        },
+        "joinTimestamp": 1566361542,
+        "points": 949,
+        "wins": 88,
+        "losses": 83,
+        "highestRank": 38,
+        "previousRank": 8,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "2543557",
+          "realm": 1,
+          "region": 1,
+          "displayName": "fotbalexpert",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/2543557"
+        },
+        "joinTimestamp": 1566363200,
+        "points": 928,
+        "wins": 88,
+        "losses": 92,
+        "highestRank": 59,
+        "previousRank": 11,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "2676372",
+          "realm": 1,
+          "region": 1,
+          "displayName": "TheArtOfWar",
+          "clanName": "Team Nexus",
+          "clanTag": "lNI",
+          "profilePath": "/profile/1/1/2676372"
+        },
+        "joinTimestamp": 1566367979,
+        "points": 901,
+        "wins": 138,
+        "losses": 145,
+        "highestRank": 14,
+        "previousRank": 8,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "1074031",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Sojourn",
+          "clanName": "UVU Esports",
+          "clanTag": "UVUSC2",
+          "profilePath": "/profile/1/1/1074031"
+        },
+        "joinTimestamp": 1566359154,
+        "points": 804,
+        "wins": 51,
+        "losses": 60,
+        "highestRank": 15,
+        "previousRank": 12,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "2499578",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Ozymandias",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/2499578"
+        },
+        "joinTimestamp": 1570240236,
+        "points": 703,
+        "wins": 57,
+        "losses": 59,
+        "highestRank": 100,
+        "previousRank": 0,
+        "favoriteRaceP1": "RANDOM"
+      },
+      {
+        "character": {
+          "id": "2160803",
+          "realm": 1,
+          "region": 1,
+          "displayName": "RONE",
+          "clanName": "BWAYNO'S roughnecks",
+          "clanTag": "425",
+          "profilePath": "/profile/1/1/2160803"
+        },
+        "joinTimestamp": 1566356247,
+        "points": 660,
+        "wins": 104,
+        "losses": 98,
+        "highestRank": 45,
+        "previousRank": 15,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "9835853",
+          "realm": 1,
+          "region": 1,
+          "displayName": "LastSupper",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/9835853"
+        },
+        "joinTimestamp": 1570192018,
+        "points": 654,
+        "wins": 30,
+        "losses": 16,
+        "highestRank": 100,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "3216708",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Osiris",
+          "clanName": "Atlantic Canadian SC Society",
+          "clanTag": "ACSS",
+          "profilePath": "/profile/1/1/3216708"
+        },
+        "joinTimestamp": 1568381319,
+        "points": 491,
+        "wins": 39,
+        "losses": 35,
+        "highestRank": 100,
+        "previousRank": 17,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "8460515",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Timo",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/8460515"
+        },
+        "joinTimestamp": 1567450649,
+        "points": 479,
+        "wins": 96,
+        "losses": 79,
+        "highestRank": 2,
+        "previousRank": 15,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "20003682",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Ice",
+          "clanName": "Validity Gaming",
+          "clanTag": "ValidG",
+          "profilePath": "/profile/1/1/20003682"
+        },
+        "joinTimestamp": 1566373824,
+        "points": 448,
+        "wins": 37,
+        "losses": 39,
+        "highestRank": 25,
+        "previousRank": 18,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "3773461",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Freizya",
+          "clanName": "Kendro Fan Club",
+          "clanTag": "KNDRO",
+          "profilePath": "/profile/1/1/3773461"
+        },
+        "joinTimestamp": 1568439272,
+        "points": 401,
+        "wins": 16,
+        "losses": 14,
+        "highestRank": 100,
+        "previousRank": 16,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "3863826",
+          "realm": 1,
+          "region": 1,
+          "displayName": "metamagic",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/3863826"
+        },
+        "joinTimestamp": 1566380265,
+        "points": 366,
+        "wins": 39,
+        "losses": 54,
+        "highestRank": 20,
+        "previousRank": 28,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "10082392",
+          "realm": 1,
+          "region": 1,
+          "displayName": "YOYI",
+          "clanName": "Agrupación Deportes Elect Cub4",
+          "clanTag": "AD3C",
+          "profilePath": "/profile/1/1/10082392"
+        },
+        "joinTimestamp": 1566380665,
+        "points": 340,
+        "wins": 27,
+        "losses": 42,
+        "highestRank": 80,
+        "previousRank": 79,
+        "favoriteRaceP1": "RANDOM"
+      },
+      {
+        "character": {
+          "id": "889173",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Archile",
+          "clanName": "Alpha Black",
+          "clanTag": "αB",
+          "profilePath": "/profile/1/1/889173"
+        },
+        "joinTimestamp": 1566355132,
+        "points": 284,
+        "wins": 29,
+        "losses": 24,
+        "highestRank": 24,
+        "previousRank": 25,
+        "favoriteRaceP1": "RANDOM"
+      },
+      {
+        "character": {
+          "id": "6106702",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Saturated",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/6106702"
+        },
+        "joinTimestamp": 1566508445,
+        "points": 278,
+        "wins": 32,
+        "losses": 25,
+        "highestRank": 17,
+        "previousRank": 22,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "4390069",
+          "realm": 1,
+          "region": 1,
+          "displayName": "BooToYou",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/4390069"
+        },
+        "joinTimestamp": 1566361418,
+        "points": 276,
+        "wins": 65,
+        "losses": 56,
+        "highestRank": 42,
+        "previousRank": 22,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "5857864",
+          "realm": 1,
+          "region": 1,
+          "displayName": "GAGEX",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/5857864"
+        },
+        "joinTimestamp": 1568008891,
+        "points": 258,
+        "wins": 22,
+        "losses": 25,
+        "highestRank": 100,
+        "previousRank": 25,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "1574228",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Degenerate",
+          "clanName": "Meowyjuana League",
+          "clanTag": "MeowyJ",
+          "profilePath": "/profile/1/1/1574228"
+        },
+        "joinTimestamp": 1567467338,
+        "points": 249,
+        "wins": 14,
+        "losses": 6,
+        "highestRank": 4,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "2948360",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Noticals",
+          "clanName": "CrypticGaming",
+          "clanTag": "Cryptc",
+          "profilePath": "/profile/1/1/2948360"
+        },
+        "joinTimestamp": 1566355237,
+        "points": 230,
+        "wins": 22,
+        "losses": 34,
+        "highestRank": 62,
+        "previousRank": 32,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "10474884",
+          "realm": 1,
+          "region": 1,
+          "displayName": "PsYcHiCmOn",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/10474884"
+        },
+        "joinTimestamp": 1566380547,
+        "points": 229,
+        "wins": 36,
+        "losses": 40,
+        "highestRank": 7,
+        "previousRank": 22,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "20473178",
+          "realm": 1,
+          "region": 1,
+          "displayName": "EXTERMINADOR",
+          "clanName": "ZNation",
+          "clanTag": "ZNsc",
+          "profilePath": "/profile/1/1/20473178"
+        },
+        "joinTimestamp": 1566377001,
+        "points": 196,
+        "wins": 36,
+        "losses": 47,
+        "highestRank": 41,
+        "previousRank": 30,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "11023125",
+          "realm": 1,
+          "region": 1,
+          "displayName": "LOLITA",
+          "clanName": "Remember the Game",
+          "clanTag": "xRtG",
+          "profilePath": "/profile/1/1/11023125"
+        },
+        "joinTimestamp": 1566363902,
+        "points": 171,
+        "wins": 42,
+        "losses": 50,
+        "highestRank": 9,
+        "previousRank": 10,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "1259777",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Ender",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/1259777"
+        },
+        "joinTimestamp": 1566365254,
+        "points": 152,
+        "wins": 20,
+        "losses": 19,
+        "highestRank": 48,
+        "previousRank": 31,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "623048",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Inept",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/623048"
+        },
+        "joinTimestamp": 1566354782,
+        "points": 151,
+        "wins": 58,
+        "losses": 53,
+        "highestRank": 27,
+        "previousRank": 37,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "1141587",
+          "realm": 1,
+          "region": 1,
+          "displayName": "kOrc",
+          "clanName": "Slow Reflexes",
+          "clanTag": "Granpa",
+          "profilePath": "/profile/1/1/1141587"
+        },
+        "joinTimestamp": 1566506374,
+        "points": 147,
+        "wins": 22,
+        "losses": 24,
+        "highestRank": 19,
+        "previousRank": 29,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "568976",
+          "realm": 2,
+          "region": 1,
+          "displayName": "Ruru",
+          "clanName": "NewAngelS",
+          "clanTag": "NwAs",
+          "profilePath": "/profile/1/2/568976"
+        },
+        "joinTimestamp": 1566382220,
+        "points": 120,
+        "wins": 14,
+        "losses": 19,
+        "highestRank": 57,
+        "previousRank": 41,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "7572952",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Zeno",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/7572952"
+        },
+        "joinTimestamp": 1566437597,
+        "points": 107,
+        "wins": 5,
+        "losses": 2,
+        "highestRank": 21,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "7057706",
+          "realm": 1,
+          "region": 1,
+          "displayName": "ChinaAshHoe",
+          "clanName": "GAMETIME301ISTRASH",
+          "clanTag": "gtSUX",
+          "profilePath": "/profile/1/1/7057706"
+        },
+        "joinTimestamp": 1566359316,
+        "points": 106,
+        "wins": 7,
+        "losses": 2,
+        "highestRank": 23,
+        "previousRank": 34,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "20613034",
+          "realm": 1,
+          "region": 1,
+          "displayName": "SNOWWHITE",
+          "clanName": "AthPeekMai",
+          "clanTag": "AthSun",
+          "profilePath": "/profile/1/1/20613034"
+        },
+        "joinTimestamp": 1566377684,
+        "points": 104,
+        "wins": 16,
+        "losses": 14,
+        "highestRank": 72,
+        "previousRank": 38,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "7818782",
+          "realm": 1,
+          "region": 1,
+          "displayName": "brlch",
+          "clanName": "PeruLimaSC2",
+          "clanTag": "LimaSC",
+          "profilePath": "/profile/1/1/7818782"
+        },
+        "joinTimestamp": 1566365813,
+        "points": 99,
+        "wins": 3,
+        "losses": 1,
+        "highestRank": 26,
+        "previousRank": 33,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "4189778",
+          "realm": 1,
+          "region": 1,
+          "displayName": "EmPirE",
+          "clanName": "Super Marauder Bros",
+          "clanTag": "SMB",
+          "profilePath": "/profile/1/1/4189778"
+        },
+        "joinTimestamp": 1566360172,
+        "points": 94,
+        "wins": 1,
+        "losses": 1,
+        "highestRank": 28,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "2745017",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Bockelypse",
+          "clanName": "Validity Gaming",
+          "clanTag": "ValidG",
+          "profilePath": "/profile/1/1/2745017"
+        },
+        "joinTimestamp": 1566356531,
+        "points": 93,
+        "wins": 7,
+        "losses": 5,
+        "highestRank": 29,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "4828592",
+          "realm": 1,
+          "region": 1,
+          "displayName": "BTS",
+          "clanName": "SSAMZI",
+          "clanTag": "SSAMZI",
+          "profilePath": "/profile/1/1/4828592"
+        },
+        "joinTimestamp": 1566355021,
+        "points": 93,
+        "wins": 1,
+        "losses": 1,
+        "highestRank": 30,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "4567688",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Joon",
+          "clanName": "HyunP",
+          "clanTag": "HPK",
+          "profilePath": "/profile/1/1/4567688"
+        },
+        "joinTimestamp": 1566362924,
+        "points": 84,
+        "wins": 3,
+        "losses": 3,
+        "highestRank": 35,
+        "previousRank": 0,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "1148613",
+          "realm": 1,
+          "region": 1,
+          "displayName": "swerve",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/1148613"
+        },
+        "joinTimestamp": 1566361084,
+        "points": 83,
+        "wins": 5,
+        "losses": 6,
+        "highestRank": 36,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "5985522",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Anxiety",
+          "clanName": "Team Nexus",
+          "clanTag": "lNI",
+          "profilePath": "/profile/1/1/5985522"
+        },
+        "joinTimestamp": 1566786460,
+        "points": 80,
+        "wins": 11,
+        "losses": 9,
+        "highestRank": 37,
+        "previousRank": 100,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "808789",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Slumdog",
+          "clanName": "Raytheon AHGL",
+          "clanTag": "RTN",
+          "profilePath": "/profile/1/1/808789"
+        },
+        "joinTimestamp": 1566358622,
+        "points": 70,
+        "wins": 7,
+        "losses": 7,
+        "highestRank": 39,
+        "previousRank": 68,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "4812419",
+          "realm": 1,
+          "region": 1,
+          "displayName": "IIIIIIIIIIII",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/4812419"
+        },
+        "joinTimestamp": 1566359415,
+        "points": 58,
+        "wins": 14,
+        "losses": 23,
+        "highestRank": 86,
+        "previousRank": 53,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "1175658",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Infestivus",
+          "clanName": "Face Tats",
+          "clanTag": "FacTat",
+          "profilePath": "/profile/1/1/1175658"
+        },
+        "joinTimestamp": 1566355069,
+        "points": 56,
+        "wins": 5,
+        "losses": 1,
+        "highestRank": 49,
+        "previousRank": 44,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "968044",
+          "realm": 2,
+          "region": 1,
+          "displayName": "Sabonete",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/2/968044"
+        },
+        "joinTimestamp": 1568403338,
+        "points": 44,
+        "wins": 6,
+        "losses": 0,
+        "highestRank": 100,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "1116149",
+          "realm": 1,
+          "region": 1,
+          "displayName": "MaFia",
+          "clanName": "Remember the Game",
+          "clanTag": "xRtG",
+          "profilePath": "/profile/1/1/1116149"
+        },
+        "joinTimestamp": 1570239970,
+        "points": 44,
+        "wins": 6,
+        "losses": 2,
+        "highestRank": 100,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "2707539",
+          "realm": 1,
+          "region": 1,
+          "displayName": "JerrodCole",
+          "clanName": "The Swag Strikers",
+          "clanTag": "TSSwag",
+          "profilePath": "/profile/1/1/2707539"
+        },
+        "joinTimestamp": 1567407617,
+        "points": 44,
+        "wins": 3,
+        "losses": 2,
+        "highestRank": 82,
+        "previousRank": 82,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "4934955",
+          "realm": 1,
+          "region": 1,
+          "displayName": "karaDebiti",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/4934955"
+        },
+        "joinTimestamp": 1566382677,
+        "points": 42,
+        "wins": 6,
+        "losses": 10,
+        "highestRank": 40,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "1711920",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Debaser",
+          "clanName": "Foreign Brood War",
+          "clanTag": "ripBW",
+          "profilePath": "/profile/1/1/1711920"
+        },
+        "joinTimestamp": 1566359794,
+        "points": 40,
+        "wins": 3,
+        "losses": 3,
+        "highestRank": 64,
+        "previousRank": 71,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "5242094",
+          "realm": 1,
+          "region": 1,
+          "displayName": "llllllllllll",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/5242094"
+        },
+        "joinTimestamp": 1566362800,
+        "points": 40,
+        "wins": 21,
+        "losses": 26,
+        "highestRank": 90,
+        "previousRank": 53,
+        "favoriteRaceP1": "RANDOM"
+      },
+      {
+        "character": {
+          "id": "11018515",
+          "realm": 1,
+          "region": 1,
+          "displayName": "ttt",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/11018515"
+        },
+        "joinTimestamp": 1566358451,
+        "points": 38,
+        "wins": 7,
+        "losses": 2,
+        "highestRank": 43,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "2927320",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Tramp",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/2927320"
+        },
+        "joinTimestamp": 1566359679,
+        "points": 34,
+        "wins": 2,
+        "losses": 1,
+        "highestRank": 44,
+        "previousRank": 70,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "346453",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Bash",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/346453"
+        },
+        "joinTimestamp": 1566363282,
+        "points": 30,
+        "wins": 5,
+        "losses": 7,
+        "highestRank": 61,
+        "previousRank": 56,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "10909321",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Tsubaki",
+          "clanName": "FANXY CHILD",
+          "clanTag": "FANXY",
+          "profilePath": "/profile/1/1/10909321"
+        },
+        "joinTimestamp": 1566358433,
+        "points": 28,
+        "wins": 4,
+        "losses": 1,
+        "highestRank": 47,
+        "previousRank": 0,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "889173",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Archile",
+          "clanName": "Alpha Black",
+          "clanTag": "αB",
+          "profilePath": "/profile/1/1/889173"
+        },
+        "joinTimestamp": 1566358823,
+        "points": 24,
+        "wins": 5,
+        "losses": 7,
+        "highestRank": 58,
+        "previousRank": 60,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "1457262",
+          "realm": 2,
+          "region": 1,
+          "displayName": "BronceForeve",
+          "clanName": "Los Clandestinos",
+          "clanTag": "TheiZ",
+          "profilePath": "/profile/1/2/1457262"
+        },
+        "joinTimestamp": 1566372173,
+        "points": 22,
+        "wins": 5,
+        "losses": 4,
+        "highestRank": 50,
+        "previousRank": 44,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "2800476",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Darkson",
+          "clanName": "Ris3n Competitive",
+          "clanTag": "Ris3n",
+          "profilePath": "/profile/1/1/2800476"
+        },
+        "joinTimestamp": 1566375564,
+        "points": 20,
+        "wins": 3,
+        "losses": 5,
+        "highestRank": 92,
+        "previousRank": 92,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "10910479",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Kaji",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/10910479"
+        },
+        "joinTimestamp": 1570824401,
+        "points": 20,
+        "wins": 6,
+        "losses": 3,
+        "highestRank": 100,
+        "previousRank": 0,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "20061436",
+          "realm": 1,
+          "region": 1,
+          "displayName": "IlIIIllIlIIl",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/20061436"
+        },
+        "joinTimestamp": 1569200736,
+        "points": 16,
+        "wins": 5,
+        "losses": 8,
+        "highestRank": 100,
+        "previousRank": 0,
+        "favoriteRaceP1": "RANDOM"
+      },
+      {
+        "character": {
+          "id": "2399356",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Lemonparty",
+          "clanName": "Merrimack College",
+          "clanTag": "MC2015",
+          "profilePath": "/profile/1/1/2399356"
+        },
+        "joinTimestamp": 1566357426,
+        "points": 14,
+        "wins": 2,
+        "losses": 7,
+        "highestRank": 52,
+        "previousRank": 56,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "20096611",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Cheoklate",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/20096611"
+        },
+        "joinTimestamp": 1566378166,
+        "points": 12,
+        "wins": 3,
+        "losses": 3,
+        "highestRank": 54,
+        "previousRank": 91,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "1631814",
+          "realm": 1,
+          "region": 1,
+          "displayName": "BigBrother",
+          "clanName": "Formless Bearsloths",
+          "clanTag": "FxB",
+          "profilePath": "/profile/1/1/1631814"
+        },
+        "joinTimestamp": 1566355873,
+        "points": 11,
+        "wins": 6,
+        "losses": 4,
+        "highestRank": 55,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "10184279",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Ailee",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/10184279"
+        },
+        "joinTimestamp": 1566365553,
+        "points": 10,
+        "wins": 2,
+        "losses": 4,
+        "highestRank": 56,
+        "previousRank": 45,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "1585559",
+          "realm": 2,
+          "region": 1,
+          "displayName": "tonysoprano",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/2/1585559"
+        },
+        "joinTimestamp": 1567406719,
+        "points": 4,
+        "wins": 2,
+        "losses": 1,
+        "highestRank": 60,
+        "previousRank": 0,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "680236",
+          "realm": 2,
+          "region": 1,
+          "displayName": "IÐrA",
+          "clanName": "Alpha X Latam",
+          "clanTag": "αXLa",
+          "profilePath": "/profile/1/2/680236"
+        },
+        "joinTimestamp": 1566366443,
+        "points": 4,
+        "wins": 1,
+        "losses": 3,
+        "highestRank": 63,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "725110",
+          "realm": 2,
+          "region": 1,
+          "displayName": "eGGz",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/2/725110"
+        },
+        "joinTimestamp": 1569269155,
+        "points": 4,
+        "wins": 1,
+        "losses": 6,
+        "highestRank": 100,
+        "previousRank": 98,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "3047247",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Kitagawa",
+          "clanName": "PeloCraft",
+          "clanTag": "PELO",
+          "profilePath": "/profile/1/1/3047247"
+        },
+        "joinTimestamp": 1566359677,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "highestRank": 65,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "20745794",
+          "realm": 1,
+          "region": 1,
+          "displayName": "MechDamon",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/20745794"
+        },
+        "joinTimestamp": 1566375995,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 66,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "513259",
+          "realm": 1,
+          "region": 1,
+          "displayName": "EECSFOREVER",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/513259"
+        },
+        "joinTimestamp": 1566360580,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 67,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "1808121",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Wittgenstein",
+          "clanName": "Philosophy",
+          "clanTag": "PHILO",
+          "profilePath": "/profile/1/1/1808121"
+        },
+        "joinTimestamp": 1566358379,
+        "points": 0,
+        "wins": 1,
+        "losses": 1,
+        "highestRank": 68,
+        "previousRank": 70,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "3391721",
+          "realm": 1,
+          "region": 1,
+          "displayName": "daboss",
+          "clanName": "Veterans of Risk",
+          "clanTag": "VetZCo",
+          "profilePath": "/profile/1/1/3391721"
+        },
+        "joinTimestamp": 1566506867,
+        "points": 0,
+        "wins": 0,
+        "losses": 3,
+        "highestRank": 70,
+        "previousRank": 0,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "10534929",
+          "realm": 1,
+          "region": 1,
+          "displayName": "EasyOpponent",
+          "clanName": "Team Gosu B Community",
+          "clanTag": "TGosuC",
+          "profilePath": "/profile/1/1/10534929"
+        },
+        "joinTimestamp": 1566369978,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 71,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "3948819",
+          "realm": 1,
+          "region": 1,
+          "displayName": "xJigglypuff",
+          "clanName": "Born Gosu Gaming",
+          "clanTag": "GØSU",
+          "profilePath": "/profile/1/1/3948819"
+        },
+        "joinTimestamp": 1566364666,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 73,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "10153079",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Darkness",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/10153079"
+        },
+        "joinTimestamp": 1566974184,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 74,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "5973247",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Relinquish",
+          "clanName": "R U MAD BRO",
+          "clanTag": "RUMB",
+          "profilePath": "/profile/1/1/5973247"
+        },
+        "joinTimestamp": 1566362064,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "highestRank": 75,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "8628521",
+          "realm": 1,
+          "region": 1,
+          "displayName": "OniiChan",
+          "clanName": "VIPs",
+          "clanTag": "7IP",
+          "profilePath": "/profile/1/1/8628521"
+        },
+        "joinTimestamp": 1566380674,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 76,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "1453755",
+          "realm": 1,
+          "region": 1,
+          "displayName": "JayTeee",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/1453755"
+        },
+        "joinTimestamp": 1566369887,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 77,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "3444020",
+          "realm": 1,
+          "region": 1,
+          "displayName": "HackaXorean",
+          "clanName": "Remember the Game",
+          "clanTag": "xRtG",
+          "profilePath": "/profile/1/1/3444020"
+        },
+        "joinTimestamp": 1566783840,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "highestRank": 78,
+        "previousRank": 0,
+        "favoriteRaceP1": "RANDOM"
+      },
+      {
+        "character": {
+          "id": "1064387",
+          "realm": 1,
+          "region": 1,
+          "displayName": "KRUM",
+          "clanName": "CrypticGaming",
+          "clanTag": "Cryptc",
+          "profilePath": "/profile/1/1/1064387"
+        },
+        "joinTimestamp": 1566365577,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "highestRank": 79,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "2495668",
+          "realm": 1,
+          "region": 1,
+          "displayName": "MajesticGOAT",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/2495668"
+        },
+        "joinTimestamp": 1566363599,
+        "points": 0,
+        "wins": 0,
+        "losses": 3,
+        "highestRank": 81,
+        "previousRank": 83,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "3355156",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Lusira",
+          "clanName": "Runling Runners",
+          "clanTag": "RLR",
+          "profilePath": "/profile/1/1/3355156"
+        },
+        "joinTimestamp": 1566370347,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 83,
+        "previousRank": 0,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "358372",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Guildelin",
+          "clanName": "Team Gosu B Community",
+          "clanTag": "TGosuC",
+          "profilePath": "/profile/1/1/358372"
+        },
+        "joinTimestamp": 1566364220,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "highestRank": 84,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "5976343",
+          "realm": 1,
+          "region": 1,
+          "displayName": "QwHX",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/5976343"
+        },
+        "joinTimestamp": 1566362303,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "highestRank": 85,
+        "previousRank": 0,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "973810",
+          "realm": 1,
+          "region": 1,
+          "displayName": "MalcolmXWing",
+          "clanName": "Gamers Rise Up",
+          "clanTag": "GRU",
+          "profilePath": "/profile/1/1/973810"
+        },
+        "joinTimestamp": 1566354999,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "highestRank": 87,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "2552252",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Ryoku",
+          "clanName": "LightBringers",
+          "clanTag": "GTnLB",
+          "profilePath": "/profile/1/1/2552252"
+        },
+        "joinTimestamp": 1566365648,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "highestRank": 88,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "2874935",
+          "realm": 1,
+          "region": 1,
+          "displayName": "ropicophop",
+          "clanName": "Carnegie Mellon eSports",
+          "clanTag": "CMU",
+          "profilePath": "/profile/1/1/2874935"
+        },
+        "joinTimestamp": 1566360513,
+        "points": 0,
+        "wins": 1,
+        "losses": 6,
+        "highestRank": 89,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "2263838",
+          "realm": 1,
+          "region": 1,
+          "displayName": "ReVolt",
+          "clanName": "Ris3n Competitive",
+          "clanTag": "Ris3n",
+          "profilePath": "/profile/1/1/2263838"
+        },
+        "joinTimestamp": 1566355080,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 91,
+        "previousRank": 0,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "6249584",
+          "realm": 1,
+          "region": 1,
+          "displayName": "chichibaba",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/6249584"
+        },
+        "joinTimestamp": 1566364628,
+        "points": 0,
+        "wins": 9,
+        "losses": 14,
+        "highestRank": 93,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "2857297",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Kestrel",
+          "clanName": "UW Madison SC2",
+          "clanTag": "UW",
+          "profilePath": "/profile/1/1/2857297"
+        },
+        "joinTimestamp": 1566378542,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 94,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "1868374",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Lactoid",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/1868374"
+        },
+        "joinTimestamp": 1566965393,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 95,
+        "previousRank": 0,
+        "favoriteRaceP1": "RANDOM"
+      },
+      {
+        "character": {
+          "id": "1469950",
+          "realm": 1,
+          "region": 1,
+          "displayName": "ricemonkey",
+          "clanName": "Rise Esports",
+          "clanTag": "Rise",
+          "profilePath": "/profile/1/1/1469950"
+        },
+        "joinTimestamp": 1566358736,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "highestRank": 96,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "1218147",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Ajax",
+          "clanName": "Cosmic Cloud Militia",
+          "clanTag": "cloudM",
+          "profilePath": "/profile/1/1/1218147"
+        },
+        "joinTimestamp": 1566368550,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "highestRank": 99,
+        "previousRank": 0,
+        "favoriteRaceP1": "ZERG"
+      },
+      {
+        "character": {
+          "id": "10350528",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Morpheus",
+          "clanName": "REPORTED",
+          "clanTag": "REPORT",
+          "profilePath": "/profile/1/1/10350528"
+        },
+        "joinTimestamp": 1566372266,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 100,
+        "previousRank": 0,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "10899916",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Jackfish",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/10899916"
+        },
+        "joinTimestamp": 1567754033,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 100,
+        "previousRank": 0,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "1290207",
+          "realm": 2,
+          "region": 1,
+          "displayName": "Cronos",
+          "clanName": "International Pro Dreamers",
+          "clanTag": "Intpro",
+          "profilePath": "/profile/1/2/1290207"
+        },
+        "joinTimestamp": 1567973276,
+        "points": 0,
+        "wins": 0,
+        "losses": 1,
+        "highestRank": 100,
+        "previousRank": 0,
+        "favoriteRaceP1": "PROTOSS"
+      },
+      {
+        "character": {
+          "id": "348251",
+          "realm": 1,
+          "region": 1,
+          "displayName": "Chaggi",
+          "clanName": "LL",
+          "clanTag": "LUE",
+          "profilePath": "/profile/1/1/348251"
+        },
+        "joinTimestamp": 1567986602,
+        "points": 0,
+        "wins": 1,
+        "losses": 1,
+        "highestRank": 100,
+        "previousRank": 99,
+        "favoriteRaceP1": "TERRAN"
+      },
+      {
+        "character": {
+          "id": "10776076",
+          "realm": 1,
+          "region": 1,
+          "displayName": "llllllllll",
+          "clanName": "",
+          "clanTag": "",
+          "profilePath": "/profile/1/1/10776076"
+        },
+        "joinTimestamp": 1569716756,
+        "points": 0,
+        "wins": 1,
+        "losses": 0,
+        "highestRank": 100,
+        "previousRank": 0,
+        "favoriteRaceP1": "RANDOM"
+      }
+    ]
+  }
