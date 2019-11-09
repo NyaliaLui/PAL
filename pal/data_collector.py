@@ -14,6 +14,10 @@ class DataCollector:
     # @purpose - extracts all relevant data on a ladder match via the SC2Replay file.
     #This uses the s2protocol. See github.com/PAL/collected_data.md for what data gets collected.
     def collect(self, replay_files):
+
+        if len(replay_files) < 1:
+            raise Exception('DataCollector.collect(): no replay files supplied')
+        
         # for file_path in replay_files:
         #     replay = Replay(file_path)
         #     self.__replays.append(replay)

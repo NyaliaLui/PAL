@@ -3,6 +3,7 @@ import mpyq
 import sys
 from os.path import isfile
 from copy import deepcopy
+import json
 
 #is_replay
 # @params - relative path to the replay file
@@ -16,8 +17,8 @@ def is_replay(replay_path):
 # @params - the name, SC2 race, clan (optional), and team (optional) for a player
 # @return - returns the SC2 player in JSON format
 # @purpose - construct a SC2 player as JSON object
-def create_player(name, race, clan='', team=0):
-    return { 'name': name, 'race': race, 'clan_tag': clan, 'team_id': team }
+def create_player(name, race, win, clan='', team=0):
+    return { 'name': name, 'race': race, 'win': win, 'clan_tag': clan, 'team_id': team }
 
 #Replay
 # @purpose - a wrapper around S2 protocol replay files
@@ -25,8 +26,10 @@ class Replay:
 
     #players - list of players. each player is a JSON object
         # {
-        #    'name': players name,
+        #    'name': player's name,
         #    'race': one of three SC2 races,
+        #    'mmr': player's mmr
+        #    'result': win/loss
         #    'clan_tag': clan name if applicable
         #    'team_id': which lobby team the player is on
         # }
@@ -55,7 +58,6 @@ class Replay:
         self.replay_name = ''
         self.UTC_timestamp = 0
         self.map = ''
-        self.decision = 0
 
         if replay_path is not '':
             #generate MPQ archive
@@ -80,7 +82,6 @@ class Replay:
             self.__details = self.__protocol.decode_replay_details(contents)
             self.map = self.__details['m_title']
             self.UTC_timestamp = self.__details['m_timeUTC']
-            self.decision = 0
 
             #pre process for matchup and names
             num_players = len(self.__details['m_playerList'])
@@ -92,13 +93,15 @@ class Replay:
                 race = self.__details['m_playerList'][i]['m_race']
                 clan = ''
                 team = self.__details['m_playerList'][i]['m_teamId']
+                result = self.__details['m_playerList'][i]['m_result']
 
                 if name.find('&lt;') > -1:
                     info = self.__beautify_name(name)
                     clan = info[0]
                     name = info[1]
 
-                player = create_player(name, race, clan, team)
+                player = create_player(name, race, result == 1, clan, team)
+
                 self.players.append(player)
 
                 if clan is '':
@@ -108,7 +111,6 @@ class Replay:
 
             #must take last ' vs ' off and put proper exstension on
             self.replay_name = self.replay_name[:-4] + '.SC2Replay'
-
 
 
     #beautify_name
@@ -129,7 +131,7 @@ class Replay:
     # @purpose - convert the relevant replay information to json format
     def json(self):
         return {'player1': self.players[0], 'player2':self.players[1],
-         'who_won': self.decision, 'date': self.UTC_timestamp, 'map': self.map}
+         'date': self.UTC_timestamp, 'map': self.map}
 
 #copy_replay
 # @params - the SC2 replay
