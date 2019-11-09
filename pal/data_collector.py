@@ -1,4 +1,5 @@
 from replay import Replay
+from pymongo import MongoClient
 
 #DataCollector
 # @purpose - responsible for collecting necessary data on ladder matches and sending them
@@ -6,7 +7,8 @@ from replay import Replay
 class DataCollector:
 
     def __init__(self):
-        pass
+        self.__client = MongoClient(port=27017)
+        self.__db = self.__client.PAL
 
     #collect
     # @params - list of replay file names with absolute paths
@@ -32,10 +34,6 @@ class DataCollector:
     # @purpose - sends a list of replay data to PAL server(s)
     def send(self, replay_data):
 
-        #We intend to create mongodb server and we will collect
-        #the necessary information on that server dynamically when the route is loaded
-
-        #currently just printing to screen in json format because I don't
-        #have a mongo server setup
         for replay in replay_data:
-            print(replay.json())
+            rep_json = replay.json()
+            self.__db.mhistory.insert_one(rep_json)
