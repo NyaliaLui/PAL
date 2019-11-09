@@ -8,10 +8,9 @@ from data_collector import DataCollector
 # with PAL servers.
 class Analyzer:
 
-    def __init__(self, folder, n, json_enabled):
+    def __init__(self, folder, n):
         self.__folder = folder
         self.__n = n
-        self.__json_enabled = json_enabled
         self.__collector = DataCollector()
 
         #get replays currently in the folder

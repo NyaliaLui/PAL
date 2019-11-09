@@ -3,7 +3,6 @@ import mpyq
 import sys
 from os.path import isfile
 from copy import deepcopy
-import json
 
 #is_replay
 # @params - relative path to the replay file
@@ -116,7 +115,6 @@ class Replay:
 
             #must take last ' vs ' off and put proper exstension on
             self.replay_name = self.replay_name[:-4] + '.SC2Replay'
-
 
     #beautify_name
     # @params - the human readable name
