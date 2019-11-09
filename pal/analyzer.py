@@ -18,10 +18,10 @@ class Analyzer:
         self.__current = [join(folder, f) for f in listdir(self.__folder)]
 
         #collect data on those replays
-        self.__collector.collect(self.__current)
+        replays = self.__collector.collect(self.__current)
 
         #send data to PAL server(s)
-        self.__collector.send()
+        self.__collector.send(replays)
 
 
     #run
@@ -30,18 +30,20 @@ class Analyzer:
     # @purpose - executes the ladder analyzer
     def run(self):
         while 1:
-            sleep(self.n_)
+            sleep(self.__n)
 
             #were replays added to the directory?
-            after = [f for f in listdir(self.__folder)]
-            added = [f for f in after if not f in self.__current]
-            if added: print "Ready to collect on ", ", ".join (added)
+            after = [join(self.__folder, f) for f in listdir(self.__folder)]
+            added = [join(self.__folder, f) for f in after if not f in self.__current]
 
-            #collect data on new replays
-            self.__collector.collect(added)
+            if added:
+                print("Ready to collect on ", ", ".join (added))
 
-            #send data to PAL server(s)
-            self.__collector.send()
+                #collect data on new replays
+                replays = self.__collector.collect(added)
 
-            #update local record
-            self.__current = after
+                #send data to PAL server(s)
+                self.__collector.send(replays)
+
+                #update local record
+                self.__current = after

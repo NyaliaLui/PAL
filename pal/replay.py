@@ -74,40 +74,45 @@ class Replay:
             try:
                 self.__protocol = versions.build(self.__baseBuild)
             except Exception, e:
-                print >> sys.stderr, 'Unsupported base build: {0} ({1})'.format(self.__baseBuild, str(e))
-                sys.exit(1)
+                raise Exception('Unsupported base build: {0} ({1})'.format(self.__baseBuild, str(e)))
 
             #replay details
-            contents = self.__archive.read_file('replay.details')
-            self.__details = self.__protocol.decode_replay_details(contents)
-            self.map = self.__details['m_title']
-            self.UTC_timestamp = self.__details['m_timeUTC']
+            try:
+                contents = self.__archive.read_file('replay.details')
+                self.__details = self.__protocol.decode_replay_details(contents)
+                self.map = self.__details['m_title']
+                self.UTC_timestamp = self.__details['m_timeUTC']
+            except Exception, e:
+                raise Exception('Issue in extracting replay details')
 
-            #pre process for matchup and names
-            num_players = len(self.__details['m_playerList'])
-            for i in range(num_players):
+            try:
+                #pre process for matchup and names
+                num_players = len(self.__details['m_playerList'])
+                for i in range(num_players):
 
-                player = None
+                    player = None
 
-                name = self.__details['m_playerList'][i]['m_name']
-                race = self.__details['m_playerList'][i]['m_race']
-                clan = ''
-                team = self.__details['m_playerList'][i]['m_teamId']
-                result = self.__details['m_playerList'][i]['m_result']
+                    name = self.__details['m_playerList'][i]['m_name']
+                    race = self.__details['m_playerList'][i]['m_race']
+                    clan = ''
+                    team = self.__details['m_playerList'][i]['m_teamId']
+                    result = self.__details['m_playerList'][i]['m_result']
 
-                if name.find('&lt;') > -1:
-                    info = self.__beautify_name(name)
-                    clan = info[0]
-                    name = info[1]
+                    if name.find('&lt;') > -1:
+                        info = self.__beautify_name(name)
+                        clan = info[0]
+                        name = info[1]
 
-                player = create_player(name, race, result == 1, clan, team)
+                    player = create_player(name, race, result == 1, clan, team)
 
-                self.players.append(player)
+                    self.players.append(player)
 
-                if clan is '':
-                    self.replay_name = self.replay_name + name + ' vs '
-                else:
-                    self.replay_name = self.replay_name + clan + ' ' + name + ' vs '
+                    if clan is '':
+                        self.replay_name = self.replay_name + name + ' vs '
+                    else:
+                        self.replay_name = self.replay_name + clan + ' ' + name + ' vs '
+            except Exception, e:
+                raise Exception('Issue in replay processing')
 
             #must take last ' vs ' off and put proper exstension on
             self.replay_name = self.replay_name[:-4] + '.SC2Replay'

@@ -6,37 +6,36 @@ from replay import Replay
 class DataCollector:
 
     def __init__(self):
-        self.__replays = []
+        pass
 
     #collect
-    # @params - list of replay file names with paths
-    # @return - no return values
+    # @params - list of replay file names with absolute paths
+    # @return - list of SC2 replays with necessary data
     # @purpose - extracts all relevant data on a ladder match via the SC2Replay file.
     #This uses the s2protocol. See github.com/PAL/collected_data.md for what data gets collected.
     def collect(self, replay_files):
 
         if len(replay_files) < 1:
             raise Exception('DataCollector.collect(): no replay files supplied')
+
+        updated = []
         
-        # for file_path in replay_files:
-        #     replay = Replay(file_path)
-        #     self.__replays.append(replay)
-        replay = Replay(replay_files[0])
-        self.__replays.append(replay)
+        for file_path in replay_files:
+            replay = Replay(file_path)
+            updated.append(replay)
+
+        return updated
 
     #send
-    # @params - no parameters
+    # @params - list of replay data to send to PAL server(s)
     # @return - no return values
-    # @purpose - sends a list of updated data to PAL server(s)
-    def send(self):
+    # @purpose - sends a list of replay data to PAL server(s)
+    def send(self, replay_data):
 
-        #send to match history db
+        #We intend to create mongodb server and we will collect
+        #the necessary information on that server dynamically when the route is loaded
 
-        #send to player name db
-
-        #send to map db
-
-        #send to date db
-
-        for replay in self.__replays:
+        #currently just printing to screen in json format because I don't
+        #have a mongo server setup
+        for replay in replay_data:
             print(replay.json())

@@ -20,6 +20,6 @@ if args.json:
 try:
     #run the ladder analyzer
     analyzer = Analyzer(args.folder, args.n, args.json)
-    # analyzer.run()
+    analyzer.run()
 except Exception as ex:
     print('Something went wrong: {0}'.format(ex))
