@@ -3,6 +3,7 @@ import mpyq
 import sys
 from os.path import isfile
 from copy import deepcopy
+from datetime import datetime
 
 #is_replay
 # @params - relative path to the replay file
@@ -32,29 +33,23 @@ class Replay:
         #    'clan_tag': clan name if applicable
         #    'team_id': which lobby team the player is on
         # }
-    #series_flag - an incrementing flag to illustrate if the replay is in a series and which number in the series
-    #               value of -1 means the replay is not in a series
     #archive - the mpyq archive of the replay
     #baseBuild - the base build of the replay according to s2protocol
     #header - the replay header information
     #protocol - the protocol for this replay
     #details - the list of details for this replay in JSON format
     #local_path - the relative path to the replay
-    #replay_name - the human readable name given to the replay
     #UTC_timestamp - the replay timestamp in UTC time
     #map - the sc2 map this was played on
-    #decision - who won the game
 
-    def __init__(self, replay_path = ''):
+    def __init__(self, sc2name, replay_path = ''):
         self.players = []
-        self.series_flag = -1
         self.__archive = None
         self.__baseBuild = None
         self.__header = None
         self.__protocol = None
         self.__details = None
         self.local_path = replay_path
-        self.replay_name = ''
         self.UTC_timestamp = 0
         self.map = ''
 
@@ -80,6 +75,7 @@ class Replay:
                 contents = self.__archive.read_file('replay.details')
                 self.__details = self.__protocol.decode_replay_details(contents)
                 self.map = self.__details['m_title']
+                self.map_code = self.map.replace(' ','-').lower()
                 self.UTC_timestamp = self.__details['m_timeUTC']
             except Exception, e:
                 raise Exception('Issue in extracting replay details')
@@ -88,9 +84,6 @@ class Replay:
                 #pre process for matchup and names
                 num_players = len(self.__details['m_playerList'])
                 for i in range(num_players):
-
-                    player = None
-
                     name = self.__details['m_playerList'][i]['m_name']
                     race = self.__details['m_playerList'][i]['m_race']
                     clan = ''
@@ -102,19 +95,12 @@ class Replay:
                         clan = info[0]
                         name = info[1]
 
-                    player = create_player(name, race, result == 1, clan, team)
-
-                    self.players.append(player)
-
-                    if clan is '':
-                        self.replay_name = self.replay_name + name + ' vs '
+                    if sc2name == name:
+                        self.__player = create_player(name, race, result == 1, clan, team)
                     else:
-                        self.replay_name = self.replay_name + clan + ' ' + name + ' vs '
+                        self.__opponent = create_player(name, race, result == 1, clan, team)
             except Exception, e:
                 raise Exception('Issue in replay processing')
-
-            #must take last ' vs ' off and put proper exstension on
-            self.replay_name = self.replay_name[:-4] + '.SC2Replay'
 
     #beautify_name
     # @params - the human readable name
@@ -133,8 +119,15 @@ class Replay:
     # @return - returns the relevant replay information in json format
     # @purpose - convert the relevant replay information to json format
     def json(self):
-        return {'player1': self.players[0], 'player2':self.players[1],
-         'date': self.UTC_timestamp, 'map': self.map}
+        #for MS Windows, time ticks start Jan 1, 1970
+        tick_start = 116444736000000000
+        nano_seconds = 10000000
+        dt_str = str(datetime.fromtimestamp((self.UTC_timestamp - tick_start) // nano_seconds))
+        dt_str = dt_str.split()[0]
+
+        return {'player': self.__player, 'opponent': self.__opponent,
+         'timestamp': self.UTC_timestamp, 'date': dt_str,
+         'map': self.map, 'mcode': self.map_code}
 
 #copy_replay
 # @params - the SC2 replay
@@ -151,7 +144,6 @@ def copy_replay(replay):
     duplicate.protocol = replay.protocol
     duplicate.details = deepcopy(replay.details)
     duplicate.local_path = replay.local_path[:]
-    duplicate.replay_name = replay.replay_name[:]
     duplicate.UTC_timestamp = replay.UTC_timestamp
 
     return duplicate

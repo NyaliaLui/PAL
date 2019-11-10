@@ -1,31 +1,35 @@
 from flask import Flask, render_template, flash, request, redirect, url_for
+from pymongo import MongoClient
 app = Flask(__name__)
-matches = [{'name': 'billy', 'map': 'Triton LE', 'mcode': 'triton', 'result': 'Win', 'timestamp': '124234523543', 'date': 'Oct. 29 1993'},
-    {'name': 'bob', 'map': 'Discoblood Bath LE', 'mcode': 'disco', 'result': 'Win', 'timestamp': '124234523543', 'date': 'Oct. 29 1993'},
-    {'name': 'greatest', 'map': 'Thunderbird LE', 'mcode': 'thunderbird', 'result': 'Loss', 'timestamp': '124234523543', 'date': 'Oct. 29 1993'},
-    {'name': 'ever', 'map': 'Winters Gate LE', 'mcode': 'winters', 'result': 'Loss', 'timestamp': '124234523543', 'date': 'Oct. 29 1993'}]
+client = MongoClient(port=27017)
+db = client.PAL
 
 def setup_app():
     return app
 
 @app.route("/")
 def home():
+    matches = db.mhistory.find()
     return render_template("match_history.html", matches=matches)
 
 @app.route("/mhistory")
 def page_mhistory():
+    matches = db.mhistory.find()
     return render_template("match_history.html", matches=matches)
 
 @app.route("/mhistory/pname/<name>")
 def page_player(name):
+    matches = db.mhistory.find()
     return render_template("player.html", pname=name, matches=matches)
 
 @app.route("/mhistory/map/<name>")
 def page_map(name):
+    matches = db.mhistory.find()
     return render_template("map.html", mname=name, matches=matches)
 
 @app.route("/mhistory/date/<UTC>")
 def page_date(UTC):
+    matches = db.mhistory.find()
     return render_template("date.html", date=UTC, matches=matches)
 
 @app.route("/signin")

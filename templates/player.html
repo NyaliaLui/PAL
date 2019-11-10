@@ -36,16 +36,16 @@
             <thead>
             <tr>
                 <th>Map</th>
-                <th>Result</th>
+                <th>Win?</th>
                 <th>Date</th>
             </tr>
             </thead>
             <tbody>
                 {% for match in matches %}
             <tr>
-                <td><a href="/mhistory/map/triton">{{ match.map }}</a></td>
-                <td>{{ match.result }}</td>
-                <td><a href="/mhistory/date/124812581237">{{ match.date }}</a></td>
+                <td><a href="/mhistory/map/{{match.mcode}}">{{ match.map }}</a></td>
+                <td>{{ match.player.win }}</td>
+                <td><a href="/mhistory/date/{{match.date}}">{{ match.date }}</a></td>
             </tr>
                 {% endfor %}
             </tbody>

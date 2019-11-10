@@ -6,9 +6,10 @@ from pymongo import MongoClient
 #to PAL server(s)
 class DataCollector:
 
-    def __init__(self):
+    def __init__(self, sc2name):
         self.__client = MongoClient(port=27017)
         self.__db = self.__client.PAL
+        self.__sc2name = sc2name
 
     #collect
     # @params - list of replay file names with absolute paths
@@ -23,7 +24,7 @@ class DataCollector:
         updated = []
         
         for file_path in replay_files:
-            replay = Replay(file_path)
+            replay = Replay(self.__sc2name, file_path)
             updated.append(replay)
 
         return updated
