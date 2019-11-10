@@ -8,10 +8,10 @@ from data_collector import DataCollector
 # with PAL servers.
 class Analyzer:
 
-    def __init__(self, folder, n):
+    def __init__(self, folder, n, sc2name):
         self.__folder = folder
         self.__n = n
-        self.__collector = DataCollector()
+        self.__collector = DataCollector(sc2name)
 
         #get replays currently in the folder
         self.__current = [join(folder, f) for f in listdir(self.__folder)]
