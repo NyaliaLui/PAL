@@ -31,7 +31,10 @@
 <div class="container-fluid">
     <main role="main">
         <h1>Your history on: {{ mname }}</h1>
-        <h3>Picture 3 pie charts, one for each matchup</h3>
+        <ul class="legend">
+            <li><span id="wins"></span> Wins</li>
+            <li><span id="losses"></span> Losses</li>
+        </ul>
         <div class="table-responsive">
             <table class="table table-striped">
                 <thead>
@@ -43,9 +46,9 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td>vZ Pie Chart</td>
-                    <td>vT Pie Chart</td>
-                    <td>vP Pie Chart</td>
+                    <td id="vz-pie"><h3 id="vz-ratio"></h3></td>
+                    <td id="vt-pie"><h4 id="vt-ratio"></h3></td>
+                    <td id="vp-pie"><h4 id="vp-ratio"></h3></td>
                 </tr>
                 </tbody>
             </table>
@@ -55,5 +58,72 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="{{ url_for('static', filename='js/feather.min.js') }}"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<script type="text/javascript">
+
+function create_pie(data, selector) {
+
+    if (data[0] == 0 && data[1] == 0) {
+        $(selector).text("No Data");
+        return;
+    }
+
+    let width = 200;
+    let height = 200;
+    let radius = Math.min(width, height) / 2;
+
+    let svg = d3.select(selector)
+        .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+        .append("g")
+            .attr("transform", `translate(${width / 2}, ${height / 2})`);
+
+    let color = d3.scaleOrdinal(["#0000ff","#ff0000"]);
+
+    let pie = d3.pie()
+        .value(d => d)
+        .sort(null);
+
+    let arc = d3.arc()
+        .innerRadius(0)
+        .outerRadius(radius);
+
+    function arcTween(a) {
+        let i = d3.interpolate(this._current, a);
+        this._current = i(1);
+        return (t) => arc(i(t));
+    }
+  
+    // Join new data
+    let path = svg.selectAll("path").data(pie(data));
+
+    // Enter new arcs
+    if (data[0] > 0 && data[1] > 0) {
+        path.enter().append("path")
+            .attr("fill", (d, i) => color(i))
+            .attr("d", arc)
+            .attr("stroke", "white")
+            .attr("stroke-width", "3px");
+    } else {
+        path.enter().append("path")
+        .attr("fill", (d, i) => color(i))
+        .attr("d", arc);
+    }
+}
+
+var record = {{ record | tojson }};
+create_pie(record.Zerg, "#vz-pie");
+create_pie(record.Terran, "#vt-pie");
+create_pie(record.Protoss, "#vp-pie");
+let totals = {Zerg: record.Zerg[0] + record.Zerg[1],
+    Terran: record.Terran[0] + record.Terran[1],
+    Protoss: record.Protoss[0] + record.Protoss[1]};
+
+$('#vz-ratio').text(`Won: ${record.Zerg[0]} / ${totals.Zerg}`);
+$('#vt-ratio').text(`Won: ${record.Terran[0]} / ${totals.Terran}`);
+$('#vp-ratio').text(`Won: ${record.Protoss[0]} / ${totals.Protoss}`);
+</script>
 
 </body></html>

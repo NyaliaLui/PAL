@@ -32,6 +32,12 @@
 <div class="container-fluid">
     <main role="main">
         <h1>Match History</h1>
+        <h3 id="ratio"></h3>
+        <ul class="legend">
+            <li><span id="wins"></span> Wins</li>
+            <li><span id="losses"></span> Losses</li>
+        </ul>
+        <div id="mu-pie" style="margin-bottom: 1.1rem;"></div>
         <div class="table-responsive">
         <table class="table table-striped">
             <thead>
@@ -45,7 +51,7 @@
             <tbody>
                 {% for match in matches %}
             <tr>
-                <td><a href="/mhistory/pname/{{match.opponent.clan_tag}}{{match.opponent.name}}">{{ match.opponent.clan_tag }} {{ match.opponent.name }}</a></td>
+                <td><a href="/mhistory/pname/{{match.opponent.clan_tag}}-{{match.opponent.name}}">{{ match.opponent.clan_tag }} {{ match.opponent.name }}</a></td>
                 <td><a href="/mhistory/map/{{match.mcode}}">{{ match.map }}</a></td>
                 <td>{{ match.player.win }}</td>
                 <td><a href="/mhistory/date/{{match.date}}">{{ match.date }}</a></td>
@@ -59,5 +65,63 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="{{ url_for('static', filename='js/feather.min.js') }}"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script type="text/javascript">
 
+    function create_pie(data, selector) {
+    
+        if (data[0] == 0 && data[1] == 0) {
+            $(selector).text("No Data");
+            return;
+        }
+    
+        let width = 300;
+        let height = 300;
+        let radius = Math.min(width, height) / 2;
+    
+        let svg = d3.select(selector)
+            .append("svg")
+                .attr("width", width)
+                .attr("height", height)
+            .append("g")
+                .attr("transform", `translate(${width / 2}, ${height / 2})`);
+    
+        let color = d3.scaleOrdinal(["#0000ff","#ff0000"]);
+    
+        let pie = d3.pie()
+            .value(d => d)
+            .sort(null);
+    
+        let arc = d3.arc()
+            .innerRadius(0)
+            .outerRadius(radius);
+    
+        function arcTween(a) {
+            let i = d3.interpolate(this._current, a);
+            this._current = i(1);
+            return (t) => arc(i(t));
+        }
+      
+        // Join new data
+        let path = svg.selectAll("path").data(pie(data));
+    
+        // Enter new arcs
+        if (data[0] > 0 && data[1] > 0) {
+            path.enter().append("path")
+                .attr("fill", (d, i) => color(i))
+                .attr("d", arc)
+                .attr("stroke", "white")
+                .attr("stroke-width", "3px");
+        } else {
+            path.enter().append("path")
+            .attr("fill", (d, i) => color(i))
+            .attr("d", arc);
+        }
+    }
+    
+    var record = {{ record | tojson }};
+    create_pie(record.ratio, "#mu-pie");
+    let total = record.ratio[0] + record.ratio[1];
+    $('#ratio').text(`Won: ${record.ratio[0]} / ${total}`);
+</script>
 </body></html>
