@@ -1,9 +1,9 @@
 from flask import Flask, render_template, flash, request, redirect, url_for
 app = Flask(__name__)
-matches = [{'name': 'billy', 'map': 'Triton LE', 'result': 'Win', 'date': 'Oct. 29 1993'},
-    {'name': 'bob', 'map': 'Discoblood Bath LE', 'result': 'Win', 'date': 'Oct. 29 1993'},
-    {'name': 'greatest', 'map': 'Thunderbird LE', 'result': 'Loss', 'date': 'Oct. 29 1993'},
-    {'name': 'ever', 'map': 'Winters Gate LE', 'result': 'Loss', 'date': 'Oct. 29 1993'}]
+matches = [{'name': 'billy', 'map': 'Triton LE', 'mcode': 'triton', 'result': 'Win', 'timestamp': '124234523543', 'date': 'Oct. 29 1993'},
+    {'name': 'bob', 'map': 'Discoblood Bath LE', 'mcode': 'disco', 'result': 'Win', 'timestamp': '124234523543', 'date': 'Oct. 29 1993'},
+    {'name': 'greatest', 'map': 'Thunderbird LE', 'mcode': 'thunderbird', 'result': 'Loss', 'timestamp': '124234523543', 'date': 'Oct. 29 1993'},
+    {'name': 'ever', 'map': 'Winters Gate LE', 'mcode': 'winters', 'result': 'Loss', 'timestamp': '124234523543', 'date': 'Oct. 29 1993'}]
 
 def setup_app():
     return app

@@ -41,16 +41,13 @@
                 </tr>
                 </thead>
                 <tbody>
+                    {% for match in matches %}
                 <tr>
-                    <td><a href="/mhistory/pname/billy">[Bob] Billy</a></td>
-                    <td><a href="/mhistory/map/triton">Triton LE</a></td>
-                    <td>Win</td>
+                    <td><a href="/mhistory/pname/billy">{{ match.name }}</a></td>
+                    <td><a href="/mhistory/map/triton">{{ match.map }}</a></td>
+                    <td>{{ match.result }}</td>
                 </tr>
-                <tr>
-                    <td><a href="/mhistory/pname/ever">[Great] Ever</a></td>
-                    <td><a href="/mhistory/map/disco">Disco Bloodbath LE</a></td>
-                    <td>Loss</td>
-                </tr>
+                    {% endfor %}
                 </tbody>
             </table>
         </div>
