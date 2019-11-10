@@ -32,8 +32,18 @@ def page_player(name):
 def page_map(mapcode):
     matches = db.mhistory.find({"mcode": mapcode})
     name = matches[0]["map"]
+    record = {}
+    record["Zerg"] = {"win": 0, "loss": 0}
+    record["Terran"] = {"win": 0, "loss": 0}
+    record["Protoss"] = {"win": 0, "loss": 0}
 
-    return render_template("map.html", mname=name, matches=matches)
+    for match in matches:
+        if match["player"]["win"]:
+            record[match["opponent"]["race"]]["win"] += 1
+        else:
+            record[match["opponent"]["race"]]["loss"] += 1
+
+    return render_template("map.html", mname=name, record=record)
 
 @app.route("/mhistory/date/<UTC>")
 def page_date(UTC):

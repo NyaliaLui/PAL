@@ -43,9 +43,9 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td>vZ Pie Chart</td>
-                    <td>vT Pie Chart</td>
-                    <td>vP Pie Chart</td>
+                    <td id="vz-pie"></td>
+                    <td id="vt-pie"></td>
+                    <td id="vp-pie"></td>
                 </tr>
                 </tbody>
             </table>
@@ -55,5 +55,22 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="{{ url_for('static', filename='js/feather.min.js') }}"></script>
+
+<script type="text/javascript">
+function create_pies(record) {
+    let vz_pie = document.getElementById("vz-pie");
+    let vt_pie = document.getElementById("vt-pie");
+    let vp_pie = document.getElementById("vp-pie");
+    let ztotal = record.Zerg.win + record.Zerg.loss;
+    let ttotal = record.Terran.win + record.Terran.loss;
+    let ptotal = record.Protoss.win + record.Protoss.loss;
+
+    vz_pie.innerText = `${record.Zerg.win} / ${ztotal}`;
+    vt_pie.innerText = `${record.Terran.win} / ${ttotal}`;
+    vp_pie.innerText = `${record.Protoss.win} / ${ptotal}`;
+}
+
+create_pies({{ record | tojson }})
+</script>
 
 </body></html>
