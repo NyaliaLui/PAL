@@ -1,0 +1,14 @@
+{
+    "BNET": {
+        "CLIENT": "NoticalsTestClient",
+        "ID": "568c8ace169f42c2900a1b7db3f0ddf3",
+        "SECRET": "enCFgQne1t0FtOZxrPtgl3RgljtUSUWD"
+    },
+    "session": {
+        "cookieKey": "sdoifjuwefj"
+    },
+    "apiUris": {
+        "account": "https://us.api.blizzard.com/sc2/player/",
+        "mhistory": "https://us.api.blizzard.com/sc2/legacy/profile/"
+    }
+}
