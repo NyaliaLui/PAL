@@ -21,6 +21,8 @@ const MatchSchema = new Schema({
         name: String,
         clan_tag: String
     }
+}, {
+    collection: 'mhistory'
 });
 
 const Match = mongoose.model('mhistory', MatchSchema);

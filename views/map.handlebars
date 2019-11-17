@@ -1,0 +1,45 @@
+<h1>Your history on: {{ mname }}</h1>
+<ul class="legend">
+    <li><span id="wins"></span> Wins</li>
+    <li><span id="losses"></span> Losses</li>
+</ul>
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>vs. Zerg</th>
+                <th>vs. Terran</th>
+                <th>vs. Protoss</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td id="vz-pie"><h3 id="vz-ratio"></h3></td>
+            <td id="vt-pie"><h4 id="vt-ratio"></h3></td>
+            <td id="vp-pie"><h4 id="vp-ratio"></h3></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    let record = {
+        Zerg: [{{ record.Zerg }}],
+        Terran: [{{ record.Terran }}],
+        Protoss: [{{ record.Protoss }}]
+    };
+
+    create_pie(record.Zerg, "#vz-pie");
+    create_pie(record.Terran, "#vt-pie");
+    create_pie(record.Protoss, "#vp-pie");
+
+    let totals = {
+        Zerg: record.Zerg[0] + record.Zerg[1],
+        Terran: record.Terran[0] + record.Terran[1],
+        Protoss: record.Protoss[0] + record.Protoss[1]
+    };
+
+    $('#vz-ratio').text(`Won: ${record.Zerg[0]} / ${totals.Zerg}`);
+    $('#vt-ratio').text(`Won: ${record.Terran[0]} / ${totals.Terran}`);
+    $('#vp-ratio').text(`Won: ${record.Protoss[0]} / ${totals.Protoss}`);
+</script>

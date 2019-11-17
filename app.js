@@ -1,58 +1,47 @@
 const express = require('express');
 const authRoutes = require('./routes/auth-routes');
-const playerRoutes = require('./routes/player-routes');
+const mhistoryRoutes = require('./routes/match-routes');
 const exphbs = require('express-handlebars');
 const bodyParser = require('body-parser');
-const passportSetup = require('./services/passport-setup');
-const cookieSession = require('cookie-session');
-const config = require('./config.json');
-const passport = require('passport');
 const mongoose = require('mongoose');
+const path = require('path');
 
 const app = express();
 
 app.use('/static', express.static('public'));
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
+
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-app.use(cookieSession({
-    maxAge: 60 * 1000, //cookie lasts 1 minute
-    keys: [config.session.cookieKey]
-}));
-
-app.use(passport.initialize());
-app.use(passport.session());
-
-app.engine('handlebars', exphbs({defaultLayout: 'main'}));
-app.set('view engine', 'handlebars');
-
 //Routes
 app.use('/auth', authRoutes);
-app.use('/player', playerRoutes);
+app.use('/mhistory', mhistoryRoutes);
 
 // ------ GET ------
 app.get('/', function(req, res) { 
-    res.render('home');
+    res.redirect('/mhistory');
 });
 
-app.get('/dashboard', function(req, res) { 
-    res.render('dashboard');
+app.get('/signin', function(req, res) { 
+    res.render('sign', { msg: 'You have signed in!' });
 });
 
-app.get('/panel', function(req, res) { 
-    res.render('panel');
+app.get('/signout', function(req, res) { 
+    res.render('sign', { msg: 'You have signed out!' });
 });
 
 // Connect to mongodb
-mongoose.connect('mongodb://localhost/brawlersdb', { useNewUrlParser: true, useFindAndModify: false });
+mongoose.connect('mongodb://localhost:27017/PAL', { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true});
 mongoose.connection.once('open', function(){
-    console.log('Connect to brawlersdb successfull.');
+    console.log('Connect to PALdb successfull.');
 }).on('error', function(error){
-    console.log('Connect to brawlersdb error:', error);
+    console.log('Connect to PALdb error:', error);
 });
 
-app.listen(3000, () => console.log('Listening on port 3000.'));
+app.listen(5000, () => console.log('Listening on port 5000.'));
 
 module.exports = app;

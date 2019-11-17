@@ -1,0 +1,37 @@
+<h1>Your history on: {{ date }}</h1>
+<h3 id="ratio"></h3>
+<ul class="legend">
+    <li><span id="wins"></span> Wins</li>
+    <li><span id="losses"></span> Losses</li>
+</ul>
+<div id="mu-pie" style="margin-bottom: 1.1rem;"></div>
+{{#if matches}}
+    <div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Opponent Name</th>
+            <th>Map</th>
+            <th>Win?</th>
+        </tr>
+        </thead>
+        <tbody>
+            {{#each matches}}
+        <tr>
+            <td><a href="/mhistory/pname/?clan={{this.opponent.clan_tag}}&pname={{this.opponent.name}}">{{ this.opponent.clan_tag }} {{ this.opponent.name }}</a></td>
+            <td><a href="/mhistory/map/?mcode={{this.mcode}}">{{ this.map }}</a></td>
+            <td>{{ this.player.win }}</td>
+        </tr>
+            {{/each}}
+        </tbody>
+    </table>
+    </div>
+{{else}}
+    <h2>Currently no match history data.</h2>
+{{/if}}
+<script>
+    let record = [{{ record.ratio }}];
+    create_pie(record, "#mu-pie");
+    let total = record[0] + record[1];
+    $('#ratio').text(`Won: ${record[0]} / ${total}`);
+</script>
