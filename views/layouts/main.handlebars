@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://getbootstrap.com/docs/4.3/examples/dashboard/ -->
+<html lang="en" class="gr__getbootstrap_com">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Nyalia Lui">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>PAL</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/dashboard/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/main.css">
+
+    <script src="/static/jquery.slim.min.js"></script>
+    <script src="/static/bootstrap.min.js"></script>
+    <script src="/static/feather.min.js"></script>
+    <script src="/static/d3.min.js"></script>
+    <script type="text/javascript">
+        function create_pie(data, selector) {
+        
+            if (data[0] == 0 && data[1] == 0) {
+                $(selector).text("No Data");
+                return;
+            }
+        
+            let width = 300;
+            let height = 300;
+            let radius = Math.min(width, height) / 2;
+        
+            let svg = d3.select(selector)
+                .append("svg")
+                    .attr("width", width)
+                    .attr("height", height)
+                .append("g")
+                    .attr("transform", `translate(${width / 2}, ${height / 2})`);
+        
+            let color = d3.scaleOrdinal(["#0000ff","#ff0000"]);
+        
+            let pie = d3.pie()
+                .value(d => d)
+                .sort(null);
+        
+            let arc = d3.arc()
+                .innerRadius(0)
+                .outerRadius(radius);
+        
+            function arcTween(a) {
+                let i = d3.interpolate(this._current, a);
+                this._current = i(1);
+                return (t) => arc(i(t));
+            }
+        
+            // Join new data
+            let path = svg.selectAll("path").data(pie(data));
+        
+            // Enter new arcs
+            if (data[0] > 0 && data[1] > 0) {
+                path.enter().append("path")
+                    .attr("fill", (d, i) => color(i))
+                    .attr("d", arc)
+                    .attr("stroke", "white")
+                    .attr("stroke-width", "3px");
+            } else {
+                path.enter().append("path")
+                .attr("fill", (d, i) => color(i))
+                .attr("d", arc);
+            }
+        }
+    </script>
+</head>
+
+<body data-gr-c-s-loaded="true">
+<nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="/">PAL</a>
+    <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+            <a class="nav-link" href="/signout">Sign out</a>
+        </li>
+    </ul>
+</nav>
+
+<div class="container-fluid">
+    <main role="main">
+        {{{ body }}}
+    </main>
+</div>
+</body>
+</html>
