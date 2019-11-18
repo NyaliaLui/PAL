@@ -4,7 +4,9 @@
     <li><span id="wins"></span> Wins</li>
     <li><span id="losses"></span> Losses</li>
 </ul>
-<div id="mu-pie" style="margin-bottom: 1.1rem;"></div>
+<div id="btn-filter" class="btn btn-primary">Filter Unranked</div>
+<div id="all-pie" style="margin-bottom: 1.1rem;"></div>
+<div id="ranked-pie" style="margin-bottom: 1.1rem;"></div>
 {{#if matches}}
     <div class="table-responsive">
     <table class="table table-striped">
@@ -18,7 +20,11 @@
         </thead>
         <tbody>
             {{#each matches}}
-        <tr>
+            {{#if this.competitive}}
+        <tr class="is-ranked">
+            {{else}}
+        <tr class="is-unranked">
+            {{/if}}
             <td><a href="/mhistory/pname/?clan={{this.opponent.clan_tag}}&pname={{this.opponent.name}}">{{ this.opponent.clan_tag }} {{ this.opponent.name }}</a></td>
             <td><a href="/mhistory/map/?mcode={{this.mcode}}">{{ this.map }}</a></td>
             <td>{{ this.player.win }}</td>
@@ -31,10 +37,39 @@
 {{else}}
     <h2>Currently no match history data.</h2>
 {{/if}}
-
 <script>
-    let record = [{{ record.ratio }}];
-    create_pie(record, "#mu-pie");
-    let total = record[0] + record[1];
-    $('#ratio').text(`Won: ${record[0]} / ${total}`);
+    let record_all = [{{ record.ratio }}];
+    let total_all = record_all[0] + record_all[1];
+    let record_ranked = [{{ rrecord.ratio }}];
+    let total_ranked = record_ranked[0] + record_ranked[1];
+    let ranked_only = false;
+
+    create_pie(record_all, "#all-pie");
+    create_pie(record_ranked, "#ranked-pie");
+    $("#ranked-pie").hide();
+
+    //Show ratio for all mathes by default
+    $("#ratio").text(`Won: ${record_all[0]} / ${total_all}`);
+
+    $("#btn-filter").click(function() {
+        if (!ranked_only) {
+            $("#ratio").text(`Won: ${record_ranked[0]} / ${total_ranked}`);
+            $(".is-unranked").hide();
+            $("#all-pie").hide();
+            $("#ranked-pie").show();
+            $("#btn-filter").text("Show All");
+            $("#btn-filter").removeClass("btn-primary");
+            $("#btn-filter").addClass("btn-success");
+        } else {
+            $("#ratio").text(`Won: ${record_all[0]} / ${total_all}`);
+            $("#ranked-pie").hide();
+            $(".is-unranked").show();
+            $("#all-pie").show();
+            $("#btn-filter").text("Filter Unranked");
+            $("#btn-filter").removeClass("btn-success");
+            $("#btn-filter").addClass("btn-primary");
+        }
+
+        ranked_only = !ranked_only;
+    });
 </script>

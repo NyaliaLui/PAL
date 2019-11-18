@@ -7,6 +7,7 @@ const MatchSchema = new Schema({
     mcode: String,
     timestamp: Number,
     date: String,
+    competitive: Boolean,
     player: {
         win: Boolean,
         team_id: Number,

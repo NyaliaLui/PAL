@@ -6,19 +6,29 @@ router.get('/', function(req, res) {
     Match.find({}).then((mhistory) => {
         if (mhistory) {
 
-            let record = { ratio: [0, 0]};
+            let record_all = { ratio: [0, 0]};
+            let record_ranked = { ratio: [0, 0]};
 
             mhistory.forEach(match => {
                 if (match.player.win) {
-                    record.ratio[0]++;
+                    record_all.ratio[0]++;
+
+                    if (match.competitive) {
+                        record_ranked.ratio[0]++;
+                    }
                 } else {
-                    record.ratio[1]++;
+                    record_all.ratio[1]++;
+
+                    if (match.competitive) {
+                        record_ranked.ratio[1]++;
+                    }
                 }
             });
 
             res.render('match_history', {
                 matches: mhistory,
-                record: record
+                record: record_all,
+                rrecord: record_ranked
             });
         } else {
             res.status(400).send({
@@ -34,7 +44,12 @@ router.get('/map', function(req, res) {
         if (mhistory) {
 
             let name = mhistory[0].map;
-            let record = {
+            let record_all = {
+                Zerg: [0, 0],
+                Terran: [0, 0],
+                Protoss: [0, 0]
+            };
+            let record_ranked = {
                 Zerg: [0, 0],
                 Terran: [0, 0],
                 Protoss: [0, 0]
@@ -42,15 +57,24 @@ router.get('/map', function(req, res) {
 
             mhistory.forEach(match => {
                 if (match.player.win) {
-                    record[match.opponent.race][0]++;
+                    record_all[match.opponent.race][0]++;
+
+                    if (match.competitive) {
+                        record_ranked[match.opponent.race][0]++;
+                    }
                 } else {
-                    record[match.opponent.race][1]++;
+                    record_all[match.opponent.race][1]++;
+
+                    if (match.competitive) {
+                        record_ranked[match.opponent.race][1]++;
+                    }
                 }
             });
 
             res.render('map', {
                 matches: mhistory,
-                record: record,
+                record: record_all,
+                rrecord: record_ranked,
                 mname: name
             });
         } else {
@@ -66,19 +90,29 @@ router.get('/date', function(req, res) {
     .then((mhistory) => {
         if (mhistory) {
 
-            let record = { ratio: [0, 0]};
+            let record_all = { ratio: [0, 0]};
+            let record_ranked = { ratio: [0, 0]};
 
             mhistory.forEach(match => {
                 if (match.player.win) {
-                    record.ratio[0]++;
+                    record_all.ratio[0]++;
+
+                    if (match.competitive) {
+                        record_ranked.ratio[0]++;
+                    }
                 } else {
-                    record.ratio[1]++;
+                    record_all.ratio[1]++;
+
+                    if (match.competitive) {
+                        record_ranked.ratio[1]++;
+                    }
                 }
             });
 
             res.render('date', {
                 matches: mhistory,
-                record: record,
+                record: record_all,
+                rrecord: record_ranked,
                 date: req.body.UTC
             });
         } else {
@@ -94,19 +128,29 @@ router.get('/pname', function(req, res) {
     .then((mhistory) => {
         if (mhistory) {
 
-            let record = { ratio: [0, 0]};
+            let record_all = { ratio: [0, 0]};
+            let record_ranked = { ratio: [0, 0]};
 
             mhistory.forEach(match => {
                 if (match.player.win) {
-                    record.ratio[0]++;
+                    record_all.ratio[0]++;
+
+                    if (match.competitive) {
+                        record_ranked.ratio[0]++;
+                    }
                 } else {
-                    record.ratio[1]++;
+                    record_all.ratio[1]++;
+
+                    if (match.competitive) {
+                        record_ranked.ratio[1]++;
+                    }
                 }
             });
 
             res.render('player', {
                 matches: mhistory,
-                record: record,
+                record: record_all,
+                rrecord: record_ranked,
                 pname: req.body.pname,
                 clan_tag: req.body.clan
             });
