@@ -4,7 +4,6 @@ const mhistoryRoutes = require('./routes/match-routes');
 const exphbs = require('express-handlebars');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const path = require('path');
 
 const app = express();
 

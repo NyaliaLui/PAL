@@ -3,6 +3,7 @@
     <li><span id="wins"></span> Wins</li>
     <li><span id="losses"></span> Losses</li>
 </ul>
+<div id="btn-filter" class="btn btn-primary">Filter Unranked</div>
 <div class="table-responsive">
     <table class="table table-striped">
         <thead>
@@ -13,33 +14,81 @@
             </tr>
         </thead>
         <tbody>
-        <tr>
-            <td id="vz-pie"><h3 id="vz-ratio"></h3></td>
-            <td id="vt-pie"><h4 id="vt-ratio"></h3></td>
-            <td id="vp-pie"><h4 id="vp-ratio"></h3></td>
+        <tr class="is-all">
+            <td id="vz-pie"><h3></h3></td>
+            <td id="vt-pie"><h3></h3></td>
+            <td id="vp-pie"><h3></h3></td>
+        </tr>
+        <tr class="is-ranked">
+            <td id="vz-pie-ranked"><h3></h3></td>
+            <td id="vt-pie-ranked"><h3></h3></td>
+            <td id="vp-pie-ranked"><h3></h3></td>
         </tr>
         </tbody>
     </table>
 </div>
 
 <script>
-    let record = {
+    let record_all = {
         Zerg: [{{ record.Zerg }}],
         Terran: [{{ record.Terran }}],
         Protoss: [{{ record.Protoss }}]
     };
 
-    create_pie(record.Zerg, "#vz-pie");
-    create_pie(record.Terran, "#vt-pie");
-    create_pie(record.Protoss, "#vp-pie");
-
-    let totals = {
-        Zerg: record.Zerg[0] + record.Zerg[1],
-        Terran: record.Terran[0] + record.Terran[1],
-        Protoss: record.Protoss[0] + record.Protoss[1]
+    let record_ranked = {
+        Zerg: [{{ rrecord.Zerg }}],
+        Terran: [{{ rrecord.Terran }}],
+        Protoss: [{{ rrecord.Protoss }}]
     };
 
-    $('#vz-ratio').text(`Won: ${record.Zerg[0]} / ${totals.Zerg}`);
-    $('#vt-ratio').text(`Won: ${record.Terran[0]} / ${totals.Terran}`);
-    $('#vp-ratio').text(`Won: ${record.Protoss[0]} / ${totals.Protoss}`);
+    let totals_all = {
+        Zerg: record_all.Zerg[0] + record_all.Zerg[1],
+        Terran: record_all.Terran[0] + record_all.Terran[1],
+        Protoss: record_all.Protoss[0] + record_all.Protoss[1]
+    };
+
+    let totals_ranked = {
+        Zerg: record_ranked.Zerg[0] + record_ranked.Zerg[1],
+        Terran: record_ranked.Terran[0] + record_ranked.Terran[1],
+        Protoss: record_ranked.Protoss[0] + record_ranked.Protoss[1]
+    };
+
+    let ranked_only = false;
+
+    //show all pies
+    create_pie(record_all.Zerg, "#vz-pie");
+    create_pie(record_all.Terran, "#vt-pie");
+    create_pie(record_all.Protoss, "#vp-pie");
+
+    $("#vz-pie > h3").text(`Won: ${record_all.Zerg[0]} / ${totals_all.Zerg}`);
+    $("#vt-pie > h3").text(`Won: ${record_all.Terran[0]} / ${totals_all.Terran}`);
+    $("#vp-pie > h3").text(`Won: ${record_all.Protoss[0]} / ${totals_all.Protoss}`);
+
+    //hide ranked pies
+    create_pie(record_ranked.Zerg, "#vz-pie-ranked");
+    create_pie(record_ranked.Terran, "#vt-pie-ranked");
+    create_pie(record_ranked.Protoss, "#vp-pie-ranked");
+
+    $("#vz-pie-ranked > h3").text(`Won: ${record_ranked.Zerg[0]} / ${totals_ranked.Zerg}`);
+    $("#vt-pie-ranked > h3").text(`Won: ${record_ranked.Terran[0]} / ${totals_ranked.Terran}`);
+    $("#vp-pie-ranked > h3").text(`Won: ${record_ranked.Protoss[0]} / ${totals_ranked.Protoss}`);
+    $(".is-ranked").hide();
+
+    $("#btn-filter").click(function() {
+        if (!ranked_only) {
+            $(".is-all").hide();
+            $(".is-ranked").show();
+            $("#btn-filter").text("Show All");
+            $("#btn-filter").removeClass("btn-primary");
+            $("#btn-filter").addClass("btn-success");
+        } else {
+            $(".is-ranked").hide();
+            $(".is-all").show();
+            $("#btn-filter").text("Filter Unranked");
+            $("#btn-filter").removeClass("btn-success");
+            $("#btn-filter").addClass("btn-primary");
+        }
+
+        ranked_only = !ranked_only;
+    });
 </script>
