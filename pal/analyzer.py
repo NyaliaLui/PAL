@@ -1,7 +1,7 @@
 from time import sleep
 from os import listdir
 from os.path import join
-from data_collector import DataCollector
+from .data_collector import DataCollector
 
 #Analyzer
 # @purpose - a singleton which starts the analysis engine. This involves monitoring the replay folder and communicating
