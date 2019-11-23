@@ -58,13 +58,17 @@ class Replay:
         __protocol = None
         __details = None
 
-        if replay_path is not '':
-            #generate MPQ archive
-            __archive = mpyq.MPQArchive(replay_path)
-            
-            #get the replays protocol version
-            contents = __archive.header['user_data_header']['content']
-            __header = versions.latest().decode_replay_header(contents)
+        if replay_path != '':
+
+            try:
+                #generate MPQ archive
+                __archive = mpyq.MPQArchive(replay_path)
+                
+                #get the replays protocol version
+                contents = __archive.header['user_data_header']['content']
+                __header = versions.latest().decode_replay_header(contents)
+            except Exception as ex:
+                raise Exception('Issue in archive unpack: {0}'.format(str(ex)))
 
             # The header's baseBuild determines which protocol to use
             #part of this code was modified from 
@@ -72,18 +76,18 @@ class Replay:
             __baseBuild = __header['m_version']['m_baseBuild']
             try:
                 __protocol = versions.build(__baseBuild)
-            except Exception, e:
-                raise Exception('Unsupported base build: {0} ({1})'.format(__baseBuild, str(e)))
+            except Exception as ex:
+                raise Exception('Unsupported base build: {0} ({1})'.format(__baseBuild, str(ex)))
 
             #replay details
             try:
                 contents = __archive.read_file('replay.details')
                 __details = __protocol.decode_replay_details(contents)
-                self.map = __details['m_title']
+                self.map = __details['m_title'].decode('utf-8')
                 self.map_code = self.map.replace(' ','-').lower()
                 self.UTC_timestamp = __details['m_timeUTC']
-            except Exception, e:
-                raise Exception('Issue in extracting replay details')
+            except Exception as ex:
+                raise Exception('Issue in extracting replay details: {0} ({1})'.format(__baseBuild, str(ex)))
 
             #replay initdata
             try:
@@ -92,15 +96,15 @@ class Replay:
                 game_desc = initdata['m_syncLobbyState']['m_gameDescription']
                 game_options = game_desc['m_gameOptions']
                 self.is_comp = game_options['m_competitive'] and not game_options['m_cooperative'] and not game_desc['m_isCoopMode'] and game_desc['m_maxUsers'] == 2
-            except Exception, e:
-                raise Exception('Issue in extracting replay init data')
+            except Exception as ex:
+                raise Exception('Issue in extracting replay init data: {0} ({1})'.format(__baseBuild, str(ex)))
 
             try:
                 #pre process for matchup and names
                 num_players = len(__details['m_playerList'])
                 for i in range(num_players):
-                    name = __details['m_playerList'][i]['m_name']
-                    race = __details['m_playerList'][i]['m_race']
+                    name = __details['m_playerList'][i]['m_name'].decode('utf-8')
+                    race = __details['m_playerList'][i]['m_race'].decode('utf-8')
                     clan = ''
                     team = __details['m_playerList'][i]['m_teamId']
                     result = __details['m_playerList'][i]['m_result']
@@ -114,8 +118,8 @@ class Replay:
                         self.player = create_player(name, race, result == 1, clan, team)
                     else:
                         self.opponent = create_player(name, race, result == 1, clan, team)
-            except Exception, e:
-                raise Exception('Issue in replay processing')
+            except Exception as ex:
+                raise Exception('Issue in replay processing: {0} ({1})'.format(__baseBuild, str(ex)))
 
     #beautify_name
     # @params - the human readable name
@@ -140,9 +144,11 @@ class Replay:
         dt_str = str(datetime.fromtimestamp((self.UTC_timestamp - tick_start) // nano_seconds))
         dt_str = dt_str.split()[0]
 
-        return {'player': self.player, 'opponent': self.opponent,
+        o = {'player': self.player, 'opponent': self.opponent,
          'timestamp': self.UTC_timestamp, 'date': dt_str, 'competitive': self.is_comp,
          'map': self.map, 'mcode': self.map_code}
+
+        return o
 
 #copy_replay
 # @params - the SC2 replay

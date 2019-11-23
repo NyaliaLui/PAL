@@ -18,4 +18,4 @@ try:
     analyzer = Analyzer(args.folder, args.n, args.sc2name)
     analyzer.run()
 except Exception as ex:
-    print('Something went wrong: {0}'.format(ex))
+    print('Something went wrong: {0}'.format(str(ex)))
