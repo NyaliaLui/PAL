@@ -7,8 +7,8 @@ from pymongo import MongoClient
 class DataCollector:
 
     def __init__(self, sc2name):
-        self.__client = MongoClient(port=27017)
-        print('Connected to mongodb @ {0}:{1}'.format('localhost', str(27017)))
+        self.__client = MongoClient('mongodb://noticals:thelegend27@18.221.166.0/PAL')
+        print('Connected to mongodb @ {0}:{1}'.format('18.221.166.0', str(27017)))
         self.__db = self.__client.PAL
         self.__sc2name = sc2name
 

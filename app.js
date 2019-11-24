@@ -34,7 +34,7 @@ app.get('/signout', function(req, res) {
 });
 
 // Connect to mongodb
-mongoose.connect('mongodb://localhost:27017/PAL', { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true});
+mongoose.connect('mongodb://noticals:thelegend27@localhost:27017/PAL', { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true});
 mongoose.connection.once('open', function(){
     console.log('Connect to PALdb successfull.');
 }).on('error', function(error){
