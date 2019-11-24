@@ -90,6 +90,7 @@ router.get('/date', function(req, res) {
     .then((mhistory) => {
         if (mhistory) {
 
+            let UTC = mhistory[0].date;
             let record_all = { ratio: [0, 0]};
             let record_ranked = { ratio: [0, 0]};
 
@@ -113,7 +114,7 @@ router.get('/date', function(req, res) {
                 matches: mhistory,
                 record: record_all,
                 rrecord: record_ranked,
-                date: req.body.UTC
+                date: UTC
             });
         } else {
             res.status(400).send({
@@ -128,6 +129,8 @@ router.get('/pname', function(req, res) {
     .then((mhistory) => {
         if (mhistory) {
 
+            let oname = mhistory[0].opponent.name;
+            let oclan = mhistory[0].opponent.clan_tag;
             let record_all = { ratio: [0, 0]};
             let record_ranked = { ratio: [0, 0]};
 
@@ -151,8 +154,8 @@ router.get('/pname', function(req, res) {
                 matches: mhistory,
                 record: record_all,
                 rrecord: record_ranked,
-                pname: req.body.pname,
-                clan_tag: req.body.clan
+                pname: oname,
+                clan_tag: oclan
             });
         } else {
             res.status(400).send({

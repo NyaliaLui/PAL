@@ -8,39 +8,15 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from pal import Analyzer
-import threading
-from queue import Queue
-
-EXQUEUE = Queue()
 
 def valid_sc2name(name):
-    invalid_chars = ('-', '&', ' ', '>', '<', '$', '%', '!')
+    invalid_chars = ('', '-', '&', ' ', '>', '<', '$', '%', '!')
     ret = True
 
     for ic in invalid_chars:
         ret = (ic not in name and ret)
 
-    return ret and name != ''
-
-class PalThread(QtCore.QThread):
-
-    def set_widget(self, widget):
-        self.__widget = widget
-
-    def set_params(self, folder, rate, sc2name):
-        self.__folder = folder
-        self.__rate = rate
-        self.__sc2name = sc2name
-
-    def run(self):
-        try:
-            #run the ladder analyzer
-            analyzer = Analyzer(self.__folder, self.__rate, self.__sc2name)
-            analyzer.run()
-        except Exception as ex:
-            QtWidgets.QMessageBox.critical(self.__widget, 'PAL Error Notification', str(ex), QtWidgets.QMessageBox.Ok)
-
+    return ret
 
 class Ui_MainWindow(QtWidgets.QWidget):
     def setupUi(self, MainWindow):
@@ -147,9 +123,6 @@ class Ui_MainWindow(QtWidgets.QWidget):
         self.btnRateUp.setText(_translate("MainWindow", "U"))
         self.btnRateDown.setText(_translate("MainWindow", "D"))
 
-    def set_pal_thread(self, thr):
-        self.__pal_thread = thr
-
     def select_folder(self):
         folder_path = QtWidgets.QFileDialog.getExistingDirectory(parent=self, caption='Select Folder of SC2 Replays')
         self.btnFolder.setText(folder_path)
@@ -185,33 +158,15 @@ class Ui_MainWindow(QtWidgets.QWidget):
 
         if msg == '':
             print('Starting PAL with following parameters: ', {'Replay Folder': folder, 'SC2 Name': sc2name, 'Collection Rate': self.__rate})
-
-            try:
-                self.__pal_thread.set_params(folder, self.__rate, sc2name)
-                self.__pal_thread.start()
-            except Exception as ex:
-                print('Something went wrong: {0}'.format(str(ex)))
-                msg = str(ex)
-                QtWidgets.QMessageBox.critical(self, 'PAL Error Notification', msg, QtWidgets.QMessageBox.Ok)
         else:
             QtWidgets.QMessageBox.critical(self, 'PAL Error Notification', msg, QtWidgets.QMessageBox.Ok)
 
 
 if __name__ == "__main__":
     import sys
-
-    #init MainWindow
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
-
-    #Create Pal Thread for running the CLI
-    pal_thread = PalThread()
-    pal_thread.set_widget(MainWindow)
-    pal_thread.finished.connect(app.exit)
-
-    #Finish MainWindow Setup
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
-    ui.set_pal_thread(pal_thread)
     MainWindow.show()
     sys.exit(app.exec_())

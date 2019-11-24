@@ -46,3 +46,24 @@ class Analyzer:
 
                 #update local record
                 self.__current = after
+
+    #run_one_time
+    # @params - no parameters
+    # @return - no return values
+    # @purpose - executes the ladder analyzer one time
+    def run_one_time(self):
+        #were replays added to the directory?
+        after = [join(self.__folder, f) for f in listdir(self.__folder)]
+        added = [join(self.__folder, f) for f in after if not f in self.__current]
+
+        if added:
+            print("Ready to collect on ", ", ".join (added))
+
+            #collect data on new replays
+            replays = self.__collector.collect(added)
+
+            #send data to PAL server(s)
+            self.__collector.send(replays)
+
+            #update local record
+            self.__current = after
