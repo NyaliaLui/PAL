@@ -3,6 +3,14 @@ from os import listdir
 from os.path import join
 from .data_collector import DataCollector
 
+def sanitize_files(fs):
+    new_fs = []
+    for path in fs:
+            if '.SC2Replay' in path:
+                new_fs.append(path)
+
+    return new_fs
+
 #Analyzer
 # @purpose - a singleton which starts the analysis engine. This involves monitoring the replay folder and communicating
 # with PAL servers.
@@ -15,6 +23,7 @@ class Analyzer:
 
         #get replays currently in the folder
         self.__current = [join(folder, f) for f in listdir(self.__folder)]
+        self.__current = sanitize_files(self.__current)
 
         #collect data on those replays
         replays = self.__collector.collect(self.__current)
@@ -33,6 +42,7 @@ class Analyzer:
 
             #were replays added to the directory?
             after = [join(self.__folder, f) for f in listdir(self.__folder)]
+            after = sanitize_files(after)
             added = [join(self.__folder, f) for f in after if not f in self.__current]
 
             if added:
