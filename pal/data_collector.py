@@ -1,5 +1,6 @@
 from .replay import Replay
 from pymongo import MongoClient
+from pymongo.errors import ServerSelectionTimeoutError
 
 #DataCollector
 # @purpose - responsible for collecting necessary data on ladder matches and sending them
@@ -7,8 +8,15 @@ from pymongo import MongoClient
 class DataCollector:
 
     def __init__(self, sc2name):
-        self.__client = MongoClient('mongodb://noticals:thelegend27@18.221.166.0/PAL')
-        print('Connected to mongodb @ {0}:{1}'.format('18.221.166.0', str(27017)))
+        self.__uri = '3.134.99.50'
+        self.__client = MongoClient('mongodb://noticals:thelegend27@' + self.__uri + '/PAL')
+        try:
+            print('Connecting to mongodb @ {0}:{1}'.format(self.__uri, str(27017)))
+            self.__client.server_info()
+            print('Connection Success!')
+        except ServerSelectionTimeoutError as ex:
+            raise Exception('Failed to connect to mongodb @ {0}:{1}'.format(self.__uri, str(27017)))
+        
         self.__db = self.__client.PAL
         self.__sc2name = sc2name
 
