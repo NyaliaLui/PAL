@@ -1,15 +1,19 @@
 const express = require('express');
 const authRoutes = require('./routes/auth-routes');
 const mhistoryRoutes = require('./routes/match-routes');
+const uploadRoutes = require('./routes/upload-routes');
 const exphbs = require('express-handlebars');
+const fileUpload = require('express-fileupload');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 const app = express();
 
+//default ops
 app.use('/static', express.static('public'));
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
+app.use(fileUpload());
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -19,6 +23,7 @@ app.use(bodyParser.json());
 //Routes
 app.use('/auth', authRoutes);
 app.use('/mhistory', mhistoryRoutes);
+app.use('/upload', uploadRoutes);
 
 // ------ GET ------
 app.get('/', function(req, res) { 

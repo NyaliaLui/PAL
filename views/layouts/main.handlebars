@@ -77,6 +77,11 @@
 <body data-gr-c-s-loaded="true">
 <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
     <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="/">PAL</a>
+    <form ref='uploadForm' id='uploadForm' action='/upload' method='post' encType="multipart/form-data">
+        <input id="sc2name" type="text" class="form-control-sm" placeholder="Enter SC2 Name" name="sc2name">
+        <input id="btn-file" class="btn btn-secondary" type="file" name="sampleFile" />
+        <input type='submit' class="btn btn-secondary" value='Upload Replay' />
+    </form>
     <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
             <a class="nav-link" href="/signout">Sign out</a>
