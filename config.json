@@ -8,7 +8,6 @@
         "cookieKey": "sdoifjuwefj"
     },
     "apiUris": {
-        "account": "https://us.api.blizzard.com/sc2/player/",
-        "mhistory": "https://us.api.blizzard.com/sc2/legacy/profile/"
+        "account": "https://us.api.blizzard.com/sc2/player/"
     }
 }

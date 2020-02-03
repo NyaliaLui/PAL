@@ -6,7 +6,7 @@ router.get('/bnet', passport.authenticate('bnet'));
 
 //bnet callback route
 router.get('/bnet/redirect', passport.authenticate('bnet', { failureRedirect: '/' }), (req,res) => {
-    res.render('connected', {"battletag": req.user.battletag});
+    res.render('connected', {"battletag": req.user.battletag, layout: 'nologin'});
 });
 
 module.exports = router;
