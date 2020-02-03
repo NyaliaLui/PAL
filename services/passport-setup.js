@@ -15,7 +15,7 @@ passport.deserializeUser((id, done) => {
 });
 
 passport.use(new BnetStrategy({
-    callbackURL: 'http://localhost:5000/auth/bnet/redirect',
+    callbackURL: 'http://ec2-3-134-99-50.us-east-2.compute.amazonaws.com:5000/auth/bnet/redirect',
     clientID: config.BNET.ID,
     clientSecret: config.BNET.SECRET,
     scope: 'sc2.profile'
