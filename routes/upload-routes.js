@@ -4,6 +4,10 @@ const spawn = require('child_process').spawn;
 
 //----- POST
 router.post('/', function(req, res) {
+  if (!req.session.loggedin) {
+    return res.redirect('/');
+  }
+  
   if (!req.files || Object.keys(req.files).length === 0) {
     return res.status(400).send('<h2>No files were uploaded. Try again.</h2>');
   }
