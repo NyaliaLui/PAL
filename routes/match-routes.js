@@ -7,7 +7,12 @@ router.get('/', function(req, res) {
         return res.redirect('/');
     }
 
-    Match.find({}).then((mhistory) => {
+    if (!req.session.btag) {
+        return res.status(400).send('<h2>No BattleTag for this account!</h2>');
+    }
+    
+    Match.find({"battletag": req.session.btag})
+    .then((mhistory) => {
         if (mhistory) {
 
             let record_all = { ratio: [0, 0]};
@@ -47,11 +52,16 @@ router.get('/map', function(req, res) {
         return res.redirect('/');
     }
 
+    if (!req.session.btag) {
+        return res.status(400).send('<h2>No BattleTag for this account!</h2>');
+    }
+
     if (!req.query.mcode) {
         return res.status(400).send('<h1>Invalid Query Provided</h1>');
     }
 
-    Match.find({mcode: req.query.mcode}).then((mhistory) => {
+    Match.find({"battletag": req.session.btag, mcode: req.query.mcode})
+    .then((mhistory) => {
         if (mhistory) {
 
             let name = mhistory[0].map;
@@ -101,11 +111,16 @@ router.get('/date', function(req, res) {
         return res.redirect('/');
     }
 
+    if (!req.session.btag) {
+        return res.status(400).send('<h2>No BattleTag for this account!</h2>');
+    }
+
     if (!req.query.UTC) {
         return res.status(400).send('<h1>Invalid Query Provided</h1>');
     }
 
-    Match.find({date: req.query.UTC}).then((mhistory) => {
+    Match.find({"battletag": req.session.btag, date: req.query.UTC})
+    .then((mhistory) => {
         if (mhistory) {
 
             let UTC = mhistory[0].date;
@@ -147,13 +162,18 @@ router.get('/pname', function(req, res) {
         return res.redirect('/');
     }
 
+    if (!req.session.btag) {
+        return res.status(400).send('<h2>No BattleTag for this account!</h2>');
+    }
+
     //only check player name cause not all players are in clans and thus
     //clan_tag could be blank/undefined
     if (!req.query.pname) {
         return res.status(400).send('<h1>Invalid Query Provided</h1>');
     }
 
-    Match.find({"opponent.name": req.query.pname, "opponent.clan_tag": req.query.clan}).then((mhistory) => {
+    Match.find({"battletag": req.session.btag, "opponent.name": req.query.pname, "opponent.clan_tag": req.query.clan})
+    .then((mhistory) => {
         if (mhistory) {
 
             let oname = mhistory[0].opponent.name;

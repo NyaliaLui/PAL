@@ -5,9 +5,13 @@ const spawn = require('child_process').spawn;
 //----- POST
 router.post('/', function(req, res) {
   if (!req.session.loggedin) {
-    return res.redirect('/');
+    return res.status(400).send('<h2>Must login.</h2>');
   }
-  
+
+  if (!req.session.btag) {
+    return res.status(400).send('<h2>No BattleTag for this account!</h2>');
+  }
+
   if (!req.files || Object.keys(req.files).length === 0) {
     return res.status(400).send('<h2>No files were uploaded. Try again.</h2>');
   }

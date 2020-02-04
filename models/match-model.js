@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 
 // create Player Schema and Model
 const MatchSchema = new Schema({
+    battletag: String,
     map: String,
     mcode: String,
     timestamp: Number,
