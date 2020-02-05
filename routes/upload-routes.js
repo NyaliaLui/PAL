@@ -2,6 +2,12 @@ const router = require('express').Router();
 const Match = require('../models/match-model');
 const spawn = require('child_process').spawn;
 
+//----- GET
+router.get('/', function(req, res) {
+  //redirect /upload to root
+  return res.redirect('/');
+});
+
 //----- POST
 router.post('/', function(req, res) {
   if (!req.session.loggedin) {
@@ -27,8 +33,11 @@ router.post('/', function(req, res) {
     }
   });
 
+  let hIndex = req.session.btag.indexOf('#');
+  let pname = req.session.btag.substring(0, hIndex);
+
   //extract data from replay
-  let replay_only = spawn('python3', ['/home/ec2-user/PAL/replay_only.py', '--sc2name', req.body.sc2name, upload_path]);
+  let replay_only = spawn('python3', ['/home/ec2-user/PAL/replay_only.py', '--sc2name', pname, upload_path]);
   replay_only.stdout.on('data', (data) => {
     if (!data) {
       return res.status(500).send('<h2>Problem extracting data from replay!</h2>');
@@ -45,7 +54,7 @@ router.post('/', function(req, res) {
     });
   });
 
-  res.send('<h3>File uploaded! Go back to the home page!</h2>');
+  res.send('<h3>File uploaded! <a href="/">Go back to the home page!</a></h2>');
 });
 
 module.exports = router;
