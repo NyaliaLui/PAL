@@ -22,14 +22,20 @@ router.post('/', function(req, res) {
 
   // move replay to proper location
   sample_file.mv(upload_path, function(err) {
-    if (err)
+    if (err) {
       return res.status(500).send(err);
+    }
   });
 
   //extract data from replay
   let replay_only = spawn('python3', ['/home/ec2-user/PAL/replay_only.py', '--sc2name', req.body.sc2name, upload_path]);
   replay_only.stdout.on('data', (data) => {
+    if (!data) {
+      return res.status(500).send('<h2>Problem extracting data from replay!</h2>');
+    }
+
     let match_info = JSON.parse(data.toString());
+    match_info.battletag = req.session.btag;
     let match = new Match(match_info);
  
     // save model to database

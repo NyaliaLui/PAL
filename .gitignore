@@ -246,3 +246,4 @@ dist
 #################
 
 .vscode/
+*.SC2Replay
