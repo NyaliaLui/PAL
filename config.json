@@ -1,11 +1,11 @@
 {
     "BNET": {
-        "CLIENT": "NoticalsTestClient",
-        "ID": "568c8ace169f42c2900a1b7db3f0ddf3",
-        "SECRET": "enCFgQne1t0FtOZxrPtgl3RgljtUSUWD"
+        "CLIENT": "Some Test Client",
+        "ID": "Super Secret ID",
+        "SECRET": "Super Secret Secret"
     },
     "session": {
-        "cookieKey": "sdoifjuwefj"
+        "cookieKey": "Cookie Session Key"
     },
     "apiUris": {
         "account": "https://us.api.blizzard.com/sc2/player/"
